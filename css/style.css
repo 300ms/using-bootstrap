@@ -50,7 +50,7 @@ body {
     background: red;
     z-index: 9999;
     margin-bottom: 0;
-    top: -50px;
+    top: -45px;
     transition: 1s ease-out;
 }
 
@@ -250,7 +250,11 @@ main {
 .col-div-1 {
     height: 1518px;
     width: 41%;
-    padding-left: 15px;
+    padding: 0 20px;
+}
+
+.rc-11 {
+    margin-bottom: 4%;
 }
 
 .picture-rc-11 {
@@ -267,6 +271,7 @@ main {
 .col-div-2 {
     height: 1518px;
     width: 59%;
+    padding: 0 20px;
 }
 
 .col-div-3 {
@@ -277,4 +282,12 @@ main {
 .row-div-2 {
     width: 29%;
     height: fit-content;
+}
+
+.sticky-2 {
+    height: 550px;
+}
+
+.block-title {
+    padding: 15px;
 }
