@@ -291,3 +291,12 @@ main {
 .block-title {
     padding: 15px;
 }
+
+.col-contaner-c {
+    width: 50%;
+}
+
+.picture-rc-12 {
+    /*width: 397px;
+    height: 265px;*/
+}
