@@ -13,7 +13,8 @@ body{
     /*display: flex;
     flex-wrap: wrap;*/
     min-height: 100%;
-
+    font-size: 15px;
+    line-height: 17px;
 }
 
 body {
@@ -22,6 +23,13 @@ body {
     height: fit-content; /* change min-height: 100% to*/
     height: -moz-max-content;
     background-color: #f4f5f6;
+}
+
+a:active,
+a:link,
+a:visited {
+    color: #000;
+    line-height: 1rem;
 }
 
 .header-container {
@@ -58,6 +66,11 @@ body {
     width: 1440px;
 }
 
+.sticky-2-inner {
+    background-color: #f4f5f6;
+    margin-bottom: 20px;
+}
+
 .date-div {
     width: 131px;
     margin-top: 30px;
@@ -79,15 +92,6 @@ body {
 
 .log-in a:hover {
     text-decoration: none;
-}
-
-.in-anchor {
-    display: inline-block;
-    width: 80px;
-    color: #fff;
-    font-size: 1.1rem;
-    font-weight: bolder;
-    text-transform: uppercase;
 }
 
 .sub-anchor {
@@ -208,7 +212,6 @@ body {
     width: 10%;
 }
 
-
 .input-group:focus-within {
     max-width: 100%;
     width: 1310px;
@@ -238,29 +241,112 @@ main {
     width: 100%;
     max-width: 1310px;
     height: fit-content;
-    padding: 20px 10px 0;
+    padding: 20px 20px;
     margin: auto;
+    background-color: #fff;
+}
+
+.pos-stick-container {
+    align-items: flex-start;
+}
+
+.pos-stick {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 61px;
 }
 
 .row-div-1 {
     width: 71%;
     height: fit-content;
+    padding: 0 0 0 20px;
 }
 
 .col-div-1 {
-    height: 1518px;
+    height: fit-content;
     width: 41%;
-    padding: 0 20px;
+    padding-left: 20px;
 }
 
 .rc-11 {
     margin-bottom: 4%;
+    height: fit-content;
 }
 
-.picture-rc-11 {
-    padding-bottom: 66.7506%;
-    width: 397px;
-    height: 265px;
+.block-title a,
+.wrap a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(121, 121, 121);
+    font-size: 18px;
+    line-height: 2.5;
+    text-transform: uppercase;
+}
+
+.rc-11 h3 {
+    font-size: 22px;
+    line-height: 22px;
+}
+
+.rc-11 h3 a {
+    font-weight: bolder;
+    text-decoration-color: red;
+}
+
+.rc-22 h4 a {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: bolder;
+    text-decoration-color: red;
+}
+
+.layer-container {
+    position: relative;
+}
+
+.layer-container a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.layer {
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 8px 15px 9px;
+    background-color: rgba(255,255,255,.9);
+}
+
+.layer2 {
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 8px 15px 9px;
+    background-color: #f72210;
+}
+
+.layer a{
+    display: block;
+    font: bold 15px sans-serif;
+    color: #f72210;
+    text-transform: uppercase;
+}
+
+.layer2 a{
+    display: block;
+    font: bold 15px sans-serif;
+    color: rgba(255,255,255,.9);
+    text-transform: uppercase;
+}
+
+.picture-rc-11,
+.pic-rc-12 {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .img-rc-11 {
@@ -269,9 +355,9 @@ main {
 }
 
 .col-div-2 {
-    height: 1518px;
+    height: fit-content;
     width: 59%;
-    padding: 0 20px;
+    padding-left: 50px;
 }
 
 .col-div-3 {
@@ -282,21 +368,308 @@ main {
 .row-div-2 {
     width: 29%;
     height: fit-content;
+    padding-left: 20px;
+}
+
+#flf-anchor {
+    color:#555;
+    line-height: 2;
+    font-size: 17px;
+}
+
+.row-div-2 a{
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.byline {
+    font-weight: bold;
+    font-size: 14px;
+    color: #555;
 }
 
 .sticky-2 {
-    height: 550px;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.h2 {
+    font-weight: bolder;
+    margin-top: 10px;
+    font-size: 22px;
+    line-height: 22px;
+}
+
+.related {
+    list-style: none;
+    padding: 0;
+}
+
+.active {
+    font-weight: normal;
+    display: inline-block;
+    background-color: #c2d4d7;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    font-size: 13px;
+}
+
+a.active:link,
+a.active:active,
+a.active:visited {
+    text-decoration: none;
+}
+
+.active:hover {
+    background-color: #272727;
+    color: #c2d4d7;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 .block-title {
-    padding: 15px;
+    margin: 0;
+    display: inline-block;
 }
 
-.col-contaner-c {
+.col-container {
+    margin-bottom: 20px;
+}
+
+.col-container-c {
     width: 50%;
 }
 
 .picture-rc-12 {
-    /*width: 397px;
-    height: 265px;*/
+     width: 135px;
+     height: 90px;
+     padding-bottom: 66.6667%;
+}
+
+.sticky-2 section {
+    padding: 0;
+}
+
+.img-rc-12 {
+     width: 135px;
+     height: 90px;
+}
+
+.sticky-2-h4 {
+    padding: 0 5px;
+}
+
+.pic-container {
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.pic-container a{
+    display: block;
+}
+
+.ul-rc-13 {
+    list-style: none;
+    padding: 0;
+    margin: 5% 0 0 0;
+    height: fit-content;
+}
+
+.anchor-rc-13 {
+    display: inline-flex;
+    margin: 5px 10px 0 0;
+}
+
+.img-rc-13 {
+     width: 63px;
+     height: 63px;
+     float: left;
+}
+
+.img-empty {
+    background: url(https://g.newsweek.com/www/images/opinion-headshot-bg.png) center center no-repeat;
+    background-color: red;
+    border-radius: 100%;
+    background-size: 70%;
+}
+
+.ul-rc-13 li {
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+    padding-top: 10px;
+}
+
+.ul-rc-13 a {
+    font-size: 15px;
+}
+
+#li-rc-first {
+    border: 0;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#li-rc-first-14 {
+    border: 0;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.img-rc-14 {
+     width: 100%;
+}
+
+.image {
+    width: 135px;
+    flex: none;
+}
+
+
+.second-list {
+    width: 100%;
+    height: fit-content;
+    align-content: flex-end;
+}
+
+.ssl-1 {
+    margin-right: 20px;
+}
+
+.pic-rc-13-lead {
+    display: block;
+    width: 100%;
+    height: fit-content;
+}
+
+.pic-rc-13 {
+    display: block;
+    width: 290px;
+    height: 290px;
+    overflow: hidden;
+}
+
+.img-rc-15-lead {
+    width: 290px;
+    height: 387px;
+}
+
+.img-rc-15 {
+    position: relative;
+    right: 25%;
+    width: auto;
+    height: 290px;
+
+}
+
+.wrap {
+    position: relative;
+}
+
+.lead-link {
+    display: block;
+    background-color: #f4f5f6;
+    color: black;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 10px 10px 10px 12px;
+    font: bold 18px ,sans-serif;
+    text-transform: uppercase;
+}
+
+.lead-link::after {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 14px;
+    margin-left: 10px;
+    background-image: url(https://g.newsweek.com/www/images/icon-arrow-right-black.svg);
+}
+
+.lead-link:hover {
+    background-color: #dbdcdd;
+    text-decoration: none;
+}
+
+.sponsor {
+    padding-bottom: 30px;
+}
+
+.text-container {
+    margin-bottom: 10px;
+}
+
+.wrap-background {
+    padding-bottom: 66.75%;
+}
+
+.wb-1 {
+    background: url("https://d.newsweek.com/en/full/1519889/korea-university-college-engineering.jpg?w=343&h=229&l=0&t=0&f=abfe6f03ca4ee6c12e4ec0bb62b83bf1") center center no-repeat;
+    background-size: cover;
+}
+
+.wb-2 {
+    background: url("https://d.newsweek.com/en/full/1515367/pfc-prague-fertility-center.jpg?w=343&h=229&f=53c53e4dec07892687c18b07f4bf2ce9") center center no-repeat;
+    background-size: cover;
+}
+
+.layer-font1 {
+    color: #3581f4;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.layer-font2 {
+    color: red;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+#in-anchor {
+    display: inline-block;
+    width: 80px;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    line-height: 24px;
+}
+
+#in-anchor2 {
+    color: red;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    line-height: 24px;
+}
+
+.rc-22 {
+    margin: 10px 0;
+    padding: 10px 5px;
+    height: fit-content;
+    line-height: 1.4;
+    border-top: 1px #777 solid;
+}
+
+#wth-anchor {
+    line-height: 14px;
+}
+
+.mid-ul {
+    margin-top: 20px;
+}
+
+.info {
+    padding-left: 42%;
+}
+
+.ads-maybe {
+    margin-top: 15%;
 }

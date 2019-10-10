@@ -18,7 +18,7 @@
             <date>Tue, Oct 01, 2019</date>
         </div>
         <div class="log-in float-right">
-            <a class="sub-anchor float-right justify-content-center align-items-center" href="#">SUBSCRIBE
+            <a class="sub-anchor float-right justify-content-center align-items-center" id="in-anchor2" href="#">SUBSCRIBE
             <svg class="after float-right" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 8 14" style="enable-background:new 0 0 8 14;" xml:space="preserve">
                 <g id="arrow-right">
                     <defs>
@@ -35,7 +35,7 @@
                 </g>
             </svg>
         </a>
-            <a class="in-anchor text-center float-right" href="#">Sign In</a>
+            <a class="text-center float-right" id="in-anchor" href="#">Sign In</a>
         </div>
         <div class="brand-logo-container">
             <a class="svg-link" href="#">
@@ -92,163 +92,628 @@
             </div>
         </nav>
     </header>
-    <main class="container-fluid d-flex">
-        <div class="row-div-1 row">
-            <section class="col-div-1 float-left">
-                <article class="rc-11">
-                    <div>
-                        <div><a href="/tech-science">Tech &amp; Science</a></div>
-                        <div>
-                            <a href="/nuclear-war-india-pakistan-death-toll-ww2-1462550">
-                                <picture class="picture-rc-11">
-                                    <source type="image/jpeg" media="(min-width: 992px)" data-srcset="https://d.newsweek.com/en/full/1532389/little-boy-nuclear-bomb-hiroshima.jpg?w=397&amp;h=265&amp;q=90&amp;f=df744a500a04b235cbf08d2e9ec79186 1x" srcset="https://d.newsweek.com/en/full/1532389/little-boy-nuclear-bomb-hiroshima.jpg?w=397&amp;h=265&amp;q=90&amp;f=df744a500a04b235cbf08d2e9ec79186 1x">
-                                    <source type="image/jpeg" media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1532389/little-boy-nuclear-bomb-hiroshima.jpg?w=466&amp;h=311&amp;q=90&amp;f=6e1083b9c712b4409d8efa83793adade 1x" srcset="https://d.newsweek.com/en/full/1532389/little-boy-nuclear-bomb-hiroshima.jpg?w=466&amp;h=311&amp;q=90&amp;f=6e1083b9c712b4409d8efa83793adade 1x">
-                                    <source type="image/jpeg" media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1532389/little-boy-nuclear-bomb-hiroshima.jpg?w=767&amp;h=512&amp;q=90&amp;f=e277c5d943165540e4b23750de39cfb7 1x" srcset="https://d.newsweek.com/en/full/1532389/little-boy-nuclear-bomb-hiroshima.jpg?w=767&amp;h=512&amp;q=90&amp;f=e277c5d943165540e4b23750de39cfb7 1x">
-                                    <source type="image/jpeg" media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1532389/little-boy-nuclear-bomb-hiroshima.jpg?w=466&amp;h=311&amp;q=90&amp;f=6e1083b9c712b4409d8efa83793adade 1x" srcset="https://d.newsweek.com/en/full/1532389/little-boy-nuclear-bomb-hiroshima.jpg?w=466&amp;h=311&amp;q=90&amp;f=6e1083b9c712b4409d8efa83793adade 1x">
-                                    <img data-src="https://d.newsweek.com/en/full/1532389/little-boy-nuclear-bomb-hiroshima.jpg?w=397&amp;h=265&amp;q=90&amp;f=df744a500a04b235cbf08d2e9ec79186" alt="Little Boy - Nuclear Bomb, Hiroshima" title="Little Boy - Nuclear Bomb, Hiroshima" class="img-rc-11" src="https://d.newsweek.com/en/full/1532389/little-boy-nuclear-bomb-hiroshima.jpg?w=397&amp;h=265&amp;q=90&amp;f=df744a500a04b235cbf08d2e9ec79186">
-                                </picture>
-                            </a>
-                        </div>
-                    </div>
-                    <h3>
-                    <a href="/nuclear-war-india-pakistan-death-toll-ww2-1462550">Nuclear War Between India and Pakistan Could Kill Twice As Many As WWII</a></h3>
-                    <div>
-                        The study quantifies just how catastrophic and wide-reaching a nuclear conflict between the two nations would be.
-                    </div>
-                </article>
-                <article class="rc-11">
-                    <div>
-                        <div><a href="/us">U.S.</a></div>
-                        <div>
-                            <a href="/abortion-laws-us-aclu-georgia-injunction-alabama-next-1462625">
-                                <picture class="picture-rc-11">
-                                    <source type="image/jpeg" media="(min-width: 992px)" data-srcset="https://d.newsweek.com/en/full/1532471/pro-abortion-protest.jpg?w=397&amp;h=265&amp;q=90&amp;f=13220a2fb32a6698c70088c7cabfab58 1x" srcset="https://d.newsweek.com/en/full/1532471/pro-abortion-protest.jpg?w=397&amp;h=265&amp;q=90&amp;f=13220a2fb32a6698c70088c7cabfab58 1x">
-                                    <source type="image/jpeg" media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1532471/pro-abortion-protest.jpg?w=466&amp;h=311&amp;q=90&amp;f=207452035f04eb4c2cd04ef9c649c7fc 1x" srcset="https://d.newsweek.com/en/full/1532471/pro-abortion-protest.jpg?w=466&amp;h=311&amp;q=90&amp;f=207452035f04eb4c2cd04ef9c649c7fc 1x">
-                                    <source type="image/jpeg" media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1532471/pro-abortion-protest.jpg?w=767&amp;h=512&amp;q=90&amp;f=6176bb038ddc1645c2884bd55f18e565 1x" srcset="https://d.newsweek.com/en/full/1532471/pro-abortion-protest.jpg?w=767&amp;h=512&amp;q=90&amp;f=6176bb038ddc1645c2884bd55f18e565 1x">
-                                    <source type="image/jpeg" media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1532471/pro-abortion-protest.jpg?w=466&amp;h=311&amp;q=90&amp;f=207452035f04eb4c2cd04ef9c649c7fc 1x" srcset="https://d.newsweek.com/en/full/1532471/pro-abortion-protest.jpg?w=466&amp;h=311&amp;q=90&amp;f=207452035f04eb4c2cd04ef9c649c7fc 1x">
-                                    <img data-src="https://d.newsweek.com/en/full/1532471/pro-abortion-protest.jpg?w=397&amp;h=265&amp;q=90&amp;f=13220a2fb32a6698c70088c7cabfab58" alt="Pro-abortion protest " title="Pro-abortion protest " class="img-rc-11" src="https://d.newsweek.com/en/full/1532471/pro-abortion-protest.jpg?w=397&amp;h=265&amp;q=90&amp;f=13220a2fb32a6698c70088c7cabfab58">
-                                </picture>
-                            </a>
-                        </div>
-                    </div>
-                    <h3>
-                <a href="/abortion-laws-us-aclu-georgia-injunction-alabama-next-1462625">This Is What's Happening With Abortion Bans Across the U.S.</a></h3>
-                    <div>
-                        The American Civil Liberties Union has just succeeded in blocking an abortion ban in Georgia.
-                    </div>
-                </article>
-                <article class="rc-11">
-                    <div>
-                        <div><a href="/world">World</a></div>
-                        <div>
-                            <a href="/iran-war-trump-maximum-pressure-oil-sanctions-1462731">
-                                <picture class="picture-rc-11">
-                                    <source type="image/jpeg" media="(min-width: 992px)" data-srcset="https://d.newsweek.com/en/full/1532641/per-usiran-02-1169778690.jpg?w=397&amp;h=265&amp;q=90&amp;f=fa062fb3127b2857f0dee5c440e0bfad 1x" srcset="https://d.newsweek.com/en/full/1532641/per-usiran-02-1169778690.jpg?w=397&amp;h=265&amp;q=90&amp;f=fa062fb3127b2857f0dee5c440e0bfad 1x">
-                                    <source type="image/jpeg" media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1532641/per-usiran-02-1169778690.jpg?w=466&amp;h=311&amp;q=90&amp;f=6f4edc574d213b15de2a24fcf6f16bb0 1x" srcset="https://d.newsweek.com/en/full/1532641/per-usiran-02-1169778690.jpg?w=466&amp;h=311&amp;q=90&amp;f=6f4edc574d213b15de2a24fcf6f16bb0 1x">
-                                    <source type="image/jpeg" media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1532641/per-usiran-02-1169778690.jpg?w=767&amp;h=512&amp;q=90&amp;f=361f8f337378f1e99be14a2aabcf6183 1x" srcset="https://d.newsweek.com/en/full/1532641/per-usiran-02-1169778690.jpg?w=767&amp;h=512&amp;q=90&amp;f=361f8f337378f1e99be14a2aabcf6183 1x">
-                                    <source type="image/jpeg" media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1532641/per-usiran-02-1169778690.jpg?w=466&amp;h=311&amp;q=90&amp;f=6f4edc574d213b15de2a24fcf6f16bb0 1x" srcset="https://d.newsweek.com/en/full/1532641/per-usiran-02-1169778690.jpg?w=466&amp;h=311&amp;q=90&amp;f=6f4edc574d213b15de2a24fcf6f16bb0 1x">
-                                    <img data-src="https://d.newsweek.com/en/full/1532641/per-usiran-02-1169778690.jpg?w=397&amp;h=265&amp;q=90&amp;f=fa062fb3127b2857f0dee5c440e0bfad" alt="PER_US&amp;Iran_02_1169778690" title="PER_US&amp;Iran_02_1169778690" class="img-rc-11" src="https://d.newsweek.com/en/full/1532641/per-usiran-02-1169778690.jpg?w=397&amp;h=265&amp;q=90&amp;f=fa062fb3127b2857f0dee5c440e0bfad">
-                                </picture>
-                            </a>
-                        </div>
-                    </div>
-                    <h3>
-                <a href="/iran-war-trump-maximum-pressure-oil-sanctions-1462731">How Trump's 'Maximum Pressure' Iran Policy is Leading the U.S. Into War</a></h3>
-                    <div>
-                        Analysts say the region is headed for a major conflagration.
-                    </div>
-                </article>
-                <article class="rc-11">
-                    <div>
-                        <div><a href="https://www.newsweek.com/best-online-shops-2020">Survey</a></div>
-                        <div>
-                            <a href="/best-online-shops-2020">
-                                <picture class="picture-rc-11">
-                                    <source type="image/png" media="(min-width: 992px)" data-srcset="https://d.newsweek.com/en/full/1527409/best-online-shops-2020.png?w=397&amp;h=265&amp;q=90&amp;f=8662347cdc80612bafa925e60426b353 1x" srcset="https://d.newsweek.com/en/full/1527409/best-online-shops-2020.png?w=397&amp;h=265&amp;q=90&amp;f=8662347cdc80612bafa925e60426b353 1x">
-                                    <source type="image/png" media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1527409/best-online-shops-2020.png?w=466&amp;h=311&amp;q=90&amp;f=ab2028d6cf86c0fcdbf7a1661fe36425 1x" srcset="https://d.newsweek.com/en/full/1527409/best-online-shops-2020.png?w=466&amp;h=311&amp;q=90&amp;f=ab2028d6cf86c0fcdbf7a1661fe36425 1x">
-                                    <source type="image/png" media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1527409/best-online-shops-2020.png?w=767&amp;h=512&amp;q=90&amp;f=5b3073cadfddbd907e63118f377753e2 1x" srcset="https://d.newsweek.com/en/full/1527409/best-online-shops-2020.png?w=767&amp;h=512&amp;q=90&amp;f=5b3073cadfddbd907e63118f377753e2 1x">
-                                    <source type="image/png" media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1527409/best-online-shops-2020.png?w=466&amp;h=311&amp;q=90&amp;f=ab2028d6cf86c0fcdbf7a1661fe36425 1x" srcset="https://d.newsweek.com/en/full/1527409/best-online-shops-2020.png?w=466&amp;h=311&amp;q=90&amp;f=ab2028d6cf86c0fcdbf7a1661fe36425 1x">
-                                    <img data-src="https://d.newsweek.com/en/full/1527409/best-online-shops-2020.png?w=397&amp;h=265&amp;q=90&amp;f=8662347cdc80612bafa925e60426b353" alt="Best Online Shops 2020" title="Best Online Shops 2020" class="img-rc-11" src="https://d.newsweek.com/en/full/1527409/best-online-shops-2020.png?w=397&amp;h=265&amp;q=90&amp;f=8662347cdc80612bafa925e60426b353">
-                                </picture>
-                            </a>
-                        </div>
-                    </div>
-                    <h3>
-            	<a href="/best-online-shops-2020">Best Online Shops 2020</a></h3>
-                    <div>
-                        Where should customers go for the best products, prices and service? We ranked the top 1,000 shops across eight industries and 39 categories.
-                    </div>
-                </article>
-            </section>
-            <section class="col-div-2 float-left d-flex">
-                <div class="sticky-2 d-flex row">
-                    <article>
-                        <div class="wrap">
-                            <div><a href="/news">News</a></div>
+    <main class="container-fluid d-flex flex-column pos-stick-container">
+        <div class="row">
+            <div class="row-div-1 row d-flex pos-stick-container">
+                <section class="col-div-1 float-left d-flex flex-column pos-stick">
+                    <div class="wrap"><a href="/news">Featured Stories</a></div>
+                    <article class="rc-11">
+                        <div class="layer-container">
+                            <div  class="layer"><a href="/tech-science">Tech &amp; Science</a></div>
                             <div>
-                                <a href="/north-korea-military-power-submarine-launched-ballistic-missile-test-1462880">
+                                <a href="/nuclear-war-india-pakistan-death-toll-ww2-1462550">
                                     <picture class="picture-rc-11">
-
-                                        <source type="image/jpeg" media="min-width: 768px" data-srcset="https://d.newsweek.com/en/full/1532886/north-korea-sblm-missile-submarine.jpg?w=591&amp;h=364&amp;f=24a2538ff21359d47c423e76fe55d34b 1x" srcset="https://d.newsweek.com/en/full/1532886/north-korea-sblm-missile-submarine.jpg?w=591&amp;h=364&amp;f=24a2538ff21359d47c423e76fe55d34b 1x">
-                                        <source type="image/jpeg" media="min-width: 481px" data-srcset="https://d.newsweek.com/en/full/1532886/north-korea-sblm-missile-submarine.jpg?w=767&amp;h=512&amp;f=5c9ac07a90cf32eccb6ae54aa29cf49c 1x" srcset="https://d.newsweek.com/en/full/1532886/north-korea-sblm-missile-submarine.jpg?w=767&amp;h=512&amp;f=5c9ac07a90cf32eccb6ae54aa29cf49c 1x">
-                                        <source type="image/jpeg" media="min-width: 0px" data-srcset="https://d.newsweek.com/en/full/1532886/north-korea-sblm-missile-submarine.jpg?w=466&amp;h=311&amp;f=8a80886d800a563afb771c89ba7b65d8 1x" srcset="https://d.newsweek.com/en/full/1532886/north-korea-sblm-missile-submarine.jpg?w=466&amp;h=311&amp;f=8a80886d800a563afb771c89ba7b65d8 1x">
-                                        <img data-src="https://d.newsweek.com/en/full/1532886/north-korea-sblm-missile-submarine.jpg?w=591&amp;h=364&amp;f=24a2538ff21359d47c423e76fe55d34b" alt="North Korea, SBLM, missile, submarine" title="North Korea, SBLM, missile, submarine" class="img-rc-11" src="https://d.newsweek.com/en/full/1532886/north-korea-sblm-missile-submarine.jpg?w=591&amp;h=364&amp;f=24a2538ff21359d47c423e76fe55d34b">
+                                        <source type="image/jpeg" media="(min-width: 992px)" data-srcset="https://d.newsweek.com/en/full/1532389/little-boy-nuclear-bomb-hiroshima.jpg?w=397&amp;h=265&amp;q=90&amp;f=df744a500a04b235cbf08d2e9ec79186 1x" srcset="https://d.newsweek.com/en/full/1532389/little-boy-nuclear-bomb-hiroshima.jpg?w=397&amp;h=265&amp;q=90&amp;f=df744a500a04b235cbf08d2e9ec79186 1x">
+                                        <source type="image/jpeg" media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1532389/little-boy-nuclear-bomb-hiroshima.jpg?w=466&amp;h=311&amp;q=90&amp;f=6e1083b9c712b4409d8efa83793adade 1x" srcset="https://d.newsweek.com/en/full/1532389/little-boy-nuclear-bomb-hiroshima.jpg?w=466&amp;h=311&amp;q=90&amp;f=6e1083b9c712b4409d8efa83793adade 1x">
+                                        <source type="image/jpeg" media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1532389/little-boy-nuclear-bomb-hiroshima.jpg?w=767&amp;h=512&amp;q=90&amp;f=e277c5d943165540e4b23750de39cfb7 1x" srcset="https://d.newsweek.com/en/full/1532389/little-boy-nuclear-bomb-hiroshima.jpg?w=767&amp;h=512&amp;q=90&amp;f=e277c5d943165540e4b23750de39cfb7 1x">
+                                        <source type="image/jpeg" media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1532389/little-boy-nuclear-bomb-hiroshima.jpg?w=466&amp;h=311&amp;q=90&amp;f=6e1083b9c712b4409d8efa83793adade 1x" srcset="https://d.newsweek.com/en/full/1532389/little-boy-nuclear-bomb-hiroshima.jpg?w=466&amp;h=311&amp;q=90&amp;f=6e1083b9c712b4409d8efa83793adade 1x">
+                                        <img data-src="https://d.newsweek.com/en/full/1532389/little-boy-nuclear-bomb-hiroshima.jpg?w=397&amp;h=265&amp;q=90&amp;f=df744a500a04b235cbf08d2e9ec79186" alt="Little Boy - Nuclear Bomb, Hiroshima" title="Little Boy - Nuclear Bomb, Hiroshima" class="img-rc-11" src="https://d.newsweek.com/en/full/1532389/little-boy-nuclear-bomb-hiroshima.jpg?w=397&amp;h=265&amp;q=90&amp;f=df744a500a04b235cbf08d2e9ec79186">
                                     </picture>
                                 </a>
                             </div>
                         </div>
-                        <h1 class="h2"><a href="/north-korea-military-power-submarine-launched-ballistic-missile-test-1462880">North Korea Hails 'New Phase' of Power After Submarine Missile Test</a></h1>
-                        <div class="summary">The Korean Central News Agency said that Wednesday's test was of "great significance" and involved a Pukguksong-3 missile.</div>
-                        <ul class="related">
-                            <li><a href="/kim-jong-un-sending-trump-message-latest-nuclear-missile-test-experts-say-it-not-routine-1462548" itemprop="relatedLink">Kim Jong Un Is Sending Trump a Message With Nuclear Missile Test: Experts</a></li>
-                        </ul>
+                        <h3>
+                        <a href="/nuclear-war-india-pakistan-death-toll-ww2-1462550">Nuclear War Between India and Pakistan Could Kill Twice As Many As WWII</a></h3>
+                        <div>
+                            The study quantifies just how catastrophic and wide-reaching a nuclear conflict between the two nations would be.
+                        </div>
                     </article>
-                    <section class="sticky-2-inner container">
-                        <div class="block-title text-left row">
-                            <a href="#">
-                                Culture &nbsp; & &nbsp; Travel
-                            </a>
-                        </div>
-                        <div class="col-container row">
-
-                        <div class="col-sm-auto col-contaner-c">
+                    <article class="rc-11">
+                        <div class="layer-container">
+                            <div class="layer"><a href="/us">U.S.</a></div>
                             <div>
-                                <a href="/lap-luxury-lapland-1456398">
-                                    <picture class="picture-rc-11" style="padding-bottom: 66.7506%;">
-                                        <img class="img-rc-11" data-src="https://d.newsweek.com/en/full/1523335/northern-lights-finland.jpg?w=397&amp;h=265&amp;f=682c23bcd2350af8508b4bdd03c049d7" alt="northern lights finland" title="northern lights finland" class="mapping-mobile lazysize lazyloaded" src="https://d.newsweek.com/en/full/1523335/northern-lights-finland.jpg?w=397&amp;h=265&amp;f=682c23bcd2350af8508b4bdd03c049d7">
+                                <a href="/abortion-laws-us-aclu-georgia-injunction-alabama-next-1462625">
+                                    <picture class="picture-rc-11">
+                                        <source type="image/jpeg" media="(min-width: 992px)" data-srcset="https://d.newsweek.com/en/full/1532471/pro-abortion-protest.jpg?w=397&amp;h=265&amp;q=90&amp;f=13220a2fb32a6698c70088c7cabfab58 1x" srcset="https://d.newsweek.com/en/full/1532471/pro-abortion-protest.jpg?w=397&amp;h=265&amp;q=90&amp;f=13220a2fb32a6698c70088c7cabfab58 1x">
+                                        <source type="image/jpeg" media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1532471/pro-abortion-protest.jpg?w=466&amp;h=311&amp;q=90&amp;f=207452035f04eb4c2cd04ef9c649c7fc 1x" srcset="https://d.newsweek.com/en/full/1532471/pro-abortion-protest.jpg?w=466&amp;h=311&amp;q=90&amp;f=207452035f04eb4c2cd04ef9c649c7fc 1x">
+                                        <source type="image/jpeg" media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1532471/pro-abortion-protest.jpg?w=767&amp;h=512&amp;q=90&amp;f=6176bb038ddc1645c2884bd55f18e565 1x" srcset="https://d.newsweek.com/en/full/1532471/pro-abortion-protest.jpg?w=767&amp;h=512&amp;q=90&amp;f=6176bb038ddc1645c2884bd55f18e565 1x">
+                                        <source type="image/jpeg" media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1532471/pro-abortion-protest.jpg?w=466&amp;h=311&amp;q=90&amp;f=207452035f04eb4c2cd04ef9c649c7fc 1x" srcset="https://d.newsweek.com/en/full/1532471/pro-abortion-protest.jpg?w=466&amp;h=311&amp;q=90&amp;f=207452035f04eb4c2cd04ef9c649c7fc 1x">
+                                        <img data-src="https://d.newsweek.com/en/full/1532471/pro-abortion-protest.jpg?w=397&amp;h=265&amp;q=90&amp;f=13220a2fb32a6698c70088c7cabfab58" alt="Pro-abortion protest " title="Pro-abortion protest " class="img-rc-11" src="https://d.newsweek.com/en/full/1532471/pro-abortion-protest.jpg?w=397&amp;h=265&amp;q=90&amp;f=13220a2fb32a6698c70088c7cabfab58">
                                     </picture>
                                 </a>
                             </div>
+                        </div>
+                        <h3>
+                    <a href="/abortion-laws-us-aclu-georgia-injunction-alabama-next-1462625">This Is What's Happening With Abortion Bans Across the U.S.</a></h3>
+                        <div>
+                            The American Civil Liberties Union has just succeeded in blocking an abortion ban in Georgia.
+                        </div>
+                    </article>
+                    <article class="rc-11">
+                        <div class="layer-container">
+                            <div class="layer"><a href="/world">World</a></div>
                             <div>
+                                <a href="/iran-war-trump-maximum-pressure-oil-sanctions-1462731">
+                                    <picture class="picture-rc-11">
+                                        <source type="image/jpeg" media="(min-width: 992px)" data-srcset="https://d.newsweek.com/en/full/1532641/per-usiran-02-1169778690.jpg?w=397&amp;h=265&amp;q=90&amp;f=fa062fb3127b2857f0dee5c440e0bfad 1x" srcset="https://d.newsweek.com/en/full/1532641/per-usiran-02-1169778690.jpg?w=397&amp;h=265&amp;q=90&amp;f=fa062fb3127b2857f0dee5c440e0bfad 1x">
+                                        <source type="image/jpeg" media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1532641/per-usiran-02-1169778690.jpg?w=466&amp;h=311&amp;q=90&amp;f=6f4edc574d213b15de2a24fcf6f16bb0 1x" srcset="https://d.newsweek.com/en/full/1532641/per-usiran-02-1169778690.jpg?w=466&amp;h=311&amp;q=90&amp;f=6f4edc574d213b15de2a24fcf6f16bb0 1x">
+                                        <source type="image/jpeg" media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1532641/per-usiran-02-1169778690.jpg?w=767&amp;h=512&amp;q=90&amp;f=361f8f337378f1e99be14a2aabcf6183 1x" srcset="https://d.newsweek.com/en/full/1532641/per-usiran-02-1169778690.jpg?w=767&amp;h=512&amp;q=90&amp;f=361f8f337378f1e99be14a2aabcf6183 1x">
+                                        <source type="image/jpeg" media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1532641/per-usiran-02-1169778690.jpg?w=466&amp;h=311&amp;q=90&amp;f=6f4edc574d213b15de2a24fcf6f16bb0 1x" srcset="https://d.newsweek.com/en/full/1532641/per-usiran-02-1169778690.jpg?w=466&amp;h=311&amp;q=90&amp;f=6f4edc574d213b15de2a24fcf6f16bb0 1x">
+                                        <img data-src="https://d.newsweek.com/en/full/1532641/per-usiran-02-1169778690.jpg?w=397&amp;h=265&amp;q=90&amp;f=fa062fb3127b2857f0dee5c440e0bfad" alt="PER_US&amp;Iran_02_1169778690" title="PER_US&amp;Iran_02_1169778690" class="img-rc-11" src="https://d.newsweek.com/en/full/1532641/per-usiran-02-1169778690.jpg?w=397&amp;h=265&amp;q=90&amp;f=fa062fb3127b2857f0dee5c440e0bfad">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <h3>
+                    <a href="/iran-war-trump-maximum-pressure-oil-sanctions-1462731">How Trump's 'Maximum Pressure' Iran Policy is Leading the U.S. Into War</a></h3>
+                        <div>
+                            Analysts say the region is headed for a major conflagration.
+                        </div>
+                    </article>
+                    <article class="rc-11">
+                        <div class="layer-container">
+                            <div  class="layer"><a href="https://www.newsweek.com/best-online-shops-2020">Survey</a></div>
+                            <div>
+                                <a href="/best-online-shops-2020">
+                                    <picture class="picture-rc-11">
+                                        <source type="image/png" media="(min-width: 992px)" data-srcset="https://d.newsweek.com/en/full/1527409/best-online-shops-2020.png?w=397&amp;h=265&amp;q=90&amp;f=8662347cdc80612bafa925e60426b353 1x" srcset="https://d.newsweek.com/en/full/1527409/best-online-shops-2020.png?w=397&amp;h=265&amp;q=90&amp;f=8662347cdc80612bafa925e60426b353 1x">
+                                        <source type="image/png" media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1527409/best-online-shops-2020.png?w=466&amp;h=311&amp;q=90&amp;f=ab2028d6cf86c0fcdbf7a1661fe36425 1x" srcset="https://d.newsweek.com/en/full/1527409/best-online-shops-2020.png?w=466&amp;h=311&amp;q=90&amp;f=ab2028d6cf86c0fcdbf7a1661fe36425 1x">
+                                        <source type="image/png" media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1527409/best-online-shops-2020.png?w=767&amp;h=512&amp;q=90&amp;f=5b3073cadfddbd907e63118f377753e2 1x" srcset="https://d.newsweek.com/en/full/1527409/best-online-shops-2020.png?w=767&amp;h=512&amp;q=90&amp;f=5b3073cadfddbd907e63118f377753e2 1x">
+                                        <source type="image/png" media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1527409/best-online-shops-2020.png?w=466&amp;h=311&amp;q=90&amp;f=ab2028d6cf86c0fcdbf7a1661fe36425 1x" srcset="https://d.newsweek.com/en/full/1527409/best-online-shops-2020.png?w=466&amp;h=311&amp;q=90&amp;f=ab2028d6cf86c0fcdbf7a1661fe36425 1x">
+                                        <img data-src="https://d.newsweek.com/en/full/1527409/best-online-shops-2020.png?w=397&amp;h=265&amp;q=90&amp;f=8662347cdc80612bafa925e60426b353" alt="Best Online Shops 2020" title="Best Online Shops 2020" class="img-rc-11" src="https://d.newsweek.com/en/full/1527409/best-online-shops-2020.png?w=397&amp;h=265&amp;q=90&amp;f=8662347cdc80612bafa925e60426b353">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <h3>
+                	<a href="/best-online-shops-2020">Best Online Shops 2020</a></h3>
+                        <div class="text-container">
+                            Where should customers go for the best products, prices and service? We ranked the top 1,000 shops across eight industries and 39 categories.
+                        </div>
+                    </article>
+
+                    <article class="rc-11">
+                        <div class="layer-container">
+                            <div  class="layer"><span class="layer-font1">Sponsored Insight</span></div>
+                            <div>
+                                <a href="https://www.newsweek.com/insights/best-abet-accredited-and-global-engineering-schools-2019">
+                                    <picture class="picture-rc-11">
+                                        <img src="https://d.newsweek.com/en/full/1519889/korea-university-college-engineering.jpg?w=343&h=229&l=0&t=0&f=abfe6f03ca4ee6c12e4ec0bb62b83bf1" alt="">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                        <h3>
+                    <a href="https://www.newsweek.com/insights/best-abet-accredited-and-global-engineering-schools-2019">Why You Should Be An Engineer & Why ABET Is Important to that Path.</a></h3>
+                        <div class="text-container">
+                            Do you dream of changing the world? Do you want to make a practical difference in people’s lives? Engineers do both these things. Find out how to join them.
+                        </div>
+                    </article>
+
+                </section>
+                <section class="col-div-2 float-left d-flex section-2">
+                    <div class="sticky-2 d-flex row">
+                        <article>
+                            <div class="wrap">
+                                <div><a href="/news">News</a></div>
                                 <div>
-                                    <a href="/lap-luxury-lapland-1456398">The Lap of Luxury in Lapland</a></div>
-                                <div>In the heart of Lapland, Finland, lies a private eco-luxury lodge—the ultimate place to view the Northern Lights.</div>
-                                <div><a href="topic/northern-lights" class="active">Northern Lights</a></div>
+                                    <div  class="layer"><span class="layer-font2">Sponsored Insight</span></div>
+                                    <a href="/north-korea-military-power-submarine-launched-ballistic-missile-test-1462880">
+                                        <picture class="picture-rc-11">
+                                            <source type="image/jpeg" media="min-width: 768px" data-srcset="https://d.newsweek.com/en/full/1532886/north-korea-sblm-missile-submarine.jpg?w=591&amp;h=364&amp;f=24a2538ff21359d47c423e76fe55d34b 1x" srcset="https://d.newsweek.com/en/full/1532886/north-korea-sblm-missile-submarine.jpg?w=591&amp;h=364&amp;f=24a2538ff21359d47c423e76fe55d34b 1x">
+                                            <source type="image/jpeg" media="min-width: 481px" data-srcset="https://d.newsweek.com/en/full/1532886/north-korea-sblm-missile-submarine.jpg?w=767&amp;h=512&amp;f=5c9ac07a90cf32eccb6ae54aa29cf49c 1x" srcset="https://d.newsweek.com/en/full/1532886/north-korea-sblm-missile-submarine.jpg?w=767&amp;h=512&amp;f=5c9ac07a90cf32eccb6ae54aa29cf49c 1x">
+                                            <source type="image/jpeg" media="min-width: 0px" data-srcset="https://d.newsweek.com/en/full/1532886/north-korea-sblm-missile-submarine.jpg?w=466&amp;h=311&amp;f=8a80886d800a563afb771c89ba7b65d8 1x" srcset="https://d.newsweek.com/en/full/1532886/north-korea-sblm-missile-submarine.jpg?w=466&amp;h=311&amp;f=8a80886d800a563afb771c89ba7b65d8 1x">
+                                            <img data-src="https://d.newsweek.com/en/full/1532886/north-korea-sblm-missile-submarine.jpg?w=591&amp;h=364&amp;f=24a2538ff21359d47c423e76fe55d34b" alt="North Korea, SBLM, missile, submarine" title="North Korea, SBLM, missile, submarine" class="img-rc-11" src="https://d.newsweek.com/en/full/1532886/north-korea-sblm-missile-submarine.jpg?w=591&amp;h=364&amp;f=24a2538ff21359d47c423e76fe55d34b">
+                                        </picture>
+                                    </a>
+                                </div>
                             </div>
+                            <h1 class="h2"><a href="/north-korea-military-power-submarine-launched-ballistic-missile-test-1462880">North Korea Hails 'New Phase' of Power After Submarine Missile Test</a></h1>
+                            <div class="summary">The Korean Central News Agency said that Wednesday's test was of "great significance" and involved a Pukguksong-3 missile.</div>
+                            <ul class="related">
+                                <li><a href="/kim-jong-un-sending-trump-message-latest-nuclear-missile-test-experts-say-it-not-routine-1462548" itemprop="relatedLink">Kim Jong Un Is Sending Trump a Message With Nuclear Missile Test: Experts</a></li>
+                            </ul>
+                        </article>
+                        <section class="sticky-2-inner container">
+                            <div class="block-title text-left row">
+                                <a href="#">
+                                    Culture & Travel
+                                </a>
+                            </div>
+                            <div class="col-container row">
+
+                                <div class="col-sm-auto col-container-c">
+                                    <div>
+                                        <a href="/lap-luxury-lapland-1456398">
+                                            <picture class="picture-rc-11">
+                                                <img class="img-rc-11" data-src="https://d.newsweek.com/en/full/1523335/northern-lights-finland.jpg?w=397&amp;h=265&amp;f=682c23bcd2350af8508b4bdd03c049d7" alt="northern lights finland" title="northern lights finland" src="https://d.newsweek.com/en/full/1523335/northern-lights-finland.jpg?w=397&amp;h=265&amp;f=682c23bcd2350af8508b4bdd03c049d7">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <div>
+                                            <a href="/lap-luxury-lapland-1456398">The Lap of Luxury in Lapland</a></div>
+                                        <div>In the heart of Lapland, Finland, lies a private eco-luxury lodge—the ultimate place to view the Northern Lights.</div>
+                                        <div><a href="topic/northern-lights" class="active">Northern Lights</a></div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-auto col-container-c">
+                                    <div>
+                                        <a href="/saba-caribbean-island-1393728">
+                                            <picture class="picture-rc-11">
+                                                <img class="img-rc-11" data-src="https://d.newsweek.com/en/full/1394571/saba.jpg?w=397&amp;h=265&amp;f=23ecdd36d1fcc063c56da38984eddb99" alt="Saba" title="Saba" src="https://d.newsweek.com/en/full/1394571/saba.jpg?w=397&amp;h=265&amp;f=23ecdd36d1fcc063c56da38984eddb99">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <div class="title">
+                                            <a href="/saba-caribbean-island-1393728">Saba: The Greatest Little Island You Never Heard Of</a></div>
+                                        <div class="summary">Islanders call Saba "The Unspoiled Queen of the Caribbean" for its pristine landscapes as well as the absence of crowds and cruise ship throngs.</div>
+                                        <div class="tags"><a href="topic/travel" class="active">Travel</a></div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-container row">
+                                <div class="col-sm-auto col-container-c">
+                                    <div>
+                                        <a href="/halloween-2019-events-near-me-new-york-salem-chicago-1462717">
+                                            <picture class="picture-rc-11">
+                                                <img data-src="https://d.newsweek.com/en/full/1532631/halloween-parade-new-york-city.jpg?w=397&amp;h=265&amp;f=9e73777dc363f1cd8e1e3989ff37f789" alt="Halloween Parade New York City" title="Halloween Parade New York City" class="img-rc-11" src="https://d.newsweek.com/en/full/1532631/halloween-parade-new-york-city.jpg?w=397&amp;h=265&amp;f=9e73777dc363f1cd8e1e3989ff37f789">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <div>
+                                            <a href="/halloween-2019-events-near-me-new-york-salem-chicago-1462717">The Best Halloween Events for 2019</a></div>
+                                        <div>From parades to haunted hayrides and even a coffin challenge, here are the spookiest events across the U.S.</div>
+                                        <div><a href="topic/halloween" class="active">Halloween</a></div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-auto col-container-c">
+                                    <div>
+                                        <a href="/7-best-literary-landmarks-london-1461867">
+                                            <picture class="picture-rc-11">
+                                                <img data-src="https://d.newsweek.com/en/full/1531381/7-best-literary-landmarks-london.jpg?w=397&amp;h=265&amp;f=20ad428647774736315e036a47234b72" alt="7 Best Literary Landmarks in London" title="7 Best Literary Landmarks in London" class="img-rc-11" src="https://d.newsweek.com/en/full/1531381/7-best-literary-landmarks-london.jpg?w=397&amp;h=265&amp;f=20ad428647774736315e036a47234b72">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <div>
+                                            <a href="/7-best-literary-landmarks-london-1461867">7 Must-See Literary Landmarks in London</a></div>
+                                        <div>The London lit landscape is chockablock with the landmarks of writing luminaries.</div>
+                                        <div><a href="topic/travel" class="active">Travel</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="block-title text-left row">
+                                <a id="wth-anchor" href="#">
+                                    MORE STORIES
+                                </a>
+                            </div>
+                            <section class="d-flex row sticky-2-list-container">
+                                <article class="rc-22">
+                                    <div class="float-left pic-container">
+                                        <a href="/trump-turnberry-golf-resort-plans-housing-development-scotland-1462842">
+                                            <picture class="pic-rc-12">
+                                                <source type="image/jpeg" media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1532834/donald-trump-golf-resort-turnberry-scotland-housing.jpg?w=135&amp;h=90&amp;f=6b2d49a72c6e1c4b21ab982989efe55a 1x" srcset="https://d.newsweek.com/en/full/1532834/donald-trump-golf-resort-turnberry-scotland-housing.jpg?w=135&amp;h=90&amp;f=6b2d49a72c6e1c4b21ab982989efe55a 1x">
+                                                <source type="image/jpeg" media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1532834/donald-trump-golf-resort-turnberry-scotland-housing.jpg?w=300&amp;h=200&amp;f=0519f0fb67ab514f8911ddb939d5d034 1x" srcset="https://d.newsweek.com/en/full/1532834/donald-trump-golf-resort-turnberry-scotland-housing.jpg?w=300&amp;h=200&amp;f=0519f0fb67ab514f8911ddb939d5d034 1x">
+                                                <source type="image/jpeg" media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1532834/donald-trump-golf-resort-turnberry-scotland-housing.jpg?w=135&amp;h=90&amp;f=6b2d49a72c6e1c4b21ab982989efe55a 1x" srcset="https://d.newsweek.com/en/full/1532834/donald-trump-golf-resort-turnberry-scotland-housing.jpg?w=135&amp;h=90&amp;f=6b2d49a72c6e1c4b21ab982989efe55a 1x">
+                                                <img data-src="https://d.newsweek.com/en/full/1532834/donald-trump-golf-resort-turnberry-scotland-housing.jpg?w=135&amp;h=90&amp;f=6b2d49a72c6e1c4b21ab982989efe55a" alt="Donald Trump golf resort Turnberry Scotland housing" title="Donald Trump golf resort Turnberry Scotland housing" class="img-rc-12" src="https://d.newsweek.com/en/full/1532834/donald-trump-golf-resort-turnberry-scotland-housing.jpg?w=135&amp;h=90&amp;f=6b2d49a72c6e1c4b21ab982989efe55a">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <h4 class="d-flex sticky-2-h4"><a href="/trump-turnberry-golf-resort-plans-housing-development-scotland-1462842">Trump's Turnberry Golf Resort Expansion Plans Shot Down by Local Officials</a></h4>
+                                    <div class="d-flex">The Trump Organization had planned to develop new villas and housing on land next to its golf resort in Scotland.</div>
+                                </article>
+                                <article class="rc-22">
+                                    <div class="float-left pic-container">
+                                        <a href="/ancient-primordial-shark-skulls-anti-atlas-mountains-1462885">
+                                            <picture class="pic-rc-12">
+                                                <source type="image/jpeg" media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1532902/phoebodus-shark.jpg?w=135&amp;h=90&amp;f=1ae44e84109ee0ed609edbbddbcb1f00 1x" srcset="https://d.newsweek.com/en/full/1532902/phoebodus-shark.jpg?w=135&amp;h=90&amp;f=1ae44e84109ee0ed609edbbddbcb1f00 1x">
+                                                <source type="image/jpeg" media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1532902/phoebodus-shark.jpg?w=300&amp;h=200&amp;f=2ea94c0463b36b65189e8fdbd325b39e 1x" srcset="https://d.newsweek.com/en/full/1532902/phoebodus-shark.jpg?w=300&amp;h=200&amp;f=2ea94c0463b36b65189e8fdbd325b39e 1x">
+                                                <source type="image/jpeg" media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1532902/phoebodus-shark.jpg?w=135&amp;h=90&amp;f=1ae44e84109ee0ed609edbbddbcb1f00 1x" srcset="https://d.newsweek.com/en/full/1532902/phoebodus-shark.jpg?w=135&amp;h=90&amp;f=1ae44e84109ee0ed609edbbddbcb1f00 1x">
+                                                <img data-src="https://d.newsweek.com/en/full/1532902/phoebodus-shark.jpg?w=135&amp;h=90&amp;f=1ae44e84109ee0ed609edbbddbcb1f00" alt="Phoebodus shark" title="Phoebodus shark" class="img-rc-12" src="https://d.newsweek.com/en/full/1532902/phoebodus-shark.jpg?w=135&amp;h=90&amp;f=1ae44e84109ee0ed609edbbddbcb1f00">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <h4 class="d-flex sticky-2-h4"><a href="/ancient-primordial-shark-skulls-anti-atlas-mountains-1462885">Ancient Primitive Shark Skulls Dating Back 360 Million Years Ago Discovered</a></h4>
+                                    <div class="d-flex">The latest find is surprising because shark skeletons are made of cartilage—a rubbery tissue that doesn't preserve as well as bone.</div>
+                                </article>
+                                <article class="rc-22">
+                                    <div class="float-left pic-container">
+                                        <a href="/botham-jean-brother-bryant-offers-forgiveness-hug-amber-guyger-dallas-1462868">
+                                            <picture class="pic-rc-12">
+                                                <source type="image/jpeg" media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1532866/botham-jean-family.jpg?w=135&amp;h=90&amp;f=5d80d4c32c46e51518f6b2c017f4eef3 1x" srcset="https://d.newsweek.com/en/full/1532866/botham-jean-family.jpg?w=135&amp;h=90&amp;f=5d80d4c32c46e51518f6b2c017f4eef3 1x">
+                                                <source type="image/jpeg" media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1532866/botham-jean-family.jpg?w=300&amp;h=200&amp;f=a15627a1430691a23bd8a6f968863de5 1x" srcset="https://d.newsweek.com/en/full/1532866/botham-jean-family.jpg?w=300&amp;h=200&amp;f=a15627a1430691a23bd8a6f968863de5 1x">
+                                                <source type="image/jpeg" media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1532866/botham-jean-family.jpg?w=135&amp;h=90&amp;f=5d80d4c32c46e51518f6b2c017f4eef3 1x" srcset="https://d.newsweek.com/en/full/1532866/botham-jean-family.jpg?w=135&amp;h=90&amp;f=5d80d4c32c46e51518f6b2c017f4eef3 1x">
+                                                <img data-src="https://d.newsweek.com/en/full/1532866/botham-jean-family.jpg?w=135&amp;h=90&amp;f=5d80d4c32c46e51518f6b2c017f4eef3" alt="Botham Jean family" title="Botham Jean family" class="img-rc-12" src="https://d.newsweek.com/en/full/1532866/botham-jean-family.jpg?w=135&amp;h=90&amp;f=5d80d4c32c46e51518f6b2c017f4eef3">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <h4 class="d-flex sticky-2-h4"><a href="/botham-jean-brother-bryant-offers-forgiveness-hug-amber-guyger-dallas-1462868">'Forgiveness' Trends After Moment Botham Jean's Brother Hugs Officer </a></h4>
+                                    <div class="d-flex">Former Dallas police officer Amber Guyger was sentenced to 10 years in prison for killing Botham Jean in his home, after mistaking his apartment for her own.</div>
+                                </article>
+                                <article class="rc-22">
+                                    <div class="float-left pic-container">
+                                        <a href="/chief-white-house-ethics-lawyer-says-trump-impeached-1462855">
+                                            <picture class="pic-rc-12">
+                                                <source type="image/jpeg" media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1532870/trump-october-2.jpg?w=135&amp;h=90&amp;f=274cc59f008628a852038da0ab8be0f5 1x" srcset="https://d.newsweek.com/en/full/1532870/trump-october-2.jpg?w=135&amp;h=90&amp;f=274cc59f008628a852038da0ab8be0f5 1x">
+                                                <source type="image/jpeg" media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1532870/trump-october-2.jpg?w=300&amp;h=200&amp;f=07f97b3c371893b814c45121bb66a4dd 1x" srcset="https://d.newsweek.com/en/full/1532870/trump-october-2.jpg?w=300&amp;h=200&amp;f=07f97b3c371893b814c45121bb66a4dd 1x">
+                                                <source type="image/jpeg" media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1532870/trump-october-2.jpg?w=135&amp;h=90&amp;f=274cc59f008628a852038da0ab8be0f5 1x" srcset="https://d.newsweek.com/en/full/1532870/trump-october-2.jpg?w=135&amp;h=90&amp;f=274cc59f008628a852038da0ab8be0f5 1x">
+                                                <img data-src="https://d.newsweek.com/en/full/1532870/trump-october-2.jpg?w=135&amp;h=90&amp;f=274cc59f008628a852038da0ab8be0f5" alt="trump October 2" title="trump October 2" class="img-rc-12" src="https://d.newsweek.com/en/full/1532870/trump-october-2.jpg?w=135&amp;h=90&amp;f=274cc59f008628a852038da0ab8be0f5">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <h4 class="d-flex sticky-2-h4"><a href="/chief-white-house-ethics-lawyer-says-trump-impeached-1462855">Former Chief White House Ethics Lawyer Says Trump Needs To Be Impeached</a></h4>
+                                    <div class="d-flex">Richard W. Painter, who served as the chief ethics lawyer for the George W. Bush administration from 2005 to 2007, said President Trump is "very dangerous for U.S. national security."</div>
+                                </article>
+                                <article class="rc-22">
+                                    <div class="float-left pic-container">
+                                        <a href="/hong-kong-protester-shot-chest-police-jailed-10-years-rioting-assault-tsang-chi-kin-1462848">
+                                            <picture class="pic-rc-12">
+                                                <source type="image/jpeg" media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1532862/hong-kong-protester-shot-rioting-jail-police.jpg?w=135&amp;h=90&amp;f=340f28ccb748add0b2a0c84dfa552c70 1x" srcset="https://d.newsweek.com/en/full/1532862/hong-kong-protester-shot-rioting-jail-police.jpg?w=135&amp;h=90&amp;f=340f28ccb748add0b2a0c84dfa552c70 1x">
+                                                <source type="image/jpeg" media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1532862/hong-kong-protester-shot-rioting-jail-police.jpg?w=300&amp;h=200&amp;f=a0d006c8de1aaf11ff387be0194779af 1x" srcset="https://d.newsweek.com/en/full/1532862/hong-kong-protester-shot-rioting-jail-police.jpg?w=300&amp;h=200&amp;f=a0d006c8de1aaf11ff387be0194779af 1x">
+                                                <source type="image/jpeg" media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1532862/hong-kong-protester-shot-rioting-jail-police.jpg?w=135&amp;h=90&amp;f=340f28ccb748add0b2a0c84dfa552c70 1x" srcset="https://d.newsweek.com/en/full/1532862/hong-kong-protester-shot-rioting-jail-police.jpg?w=135&amp;h=90&amp;f=340f28ccb748add0b2a0c84dfa552c70 1x">
+                                                <img data-src="https://d.newsweek.com/en/full/1532862/hong-kong-protester-shot-rioting-jail-police.jpg?w=135&amp;h=90&amp;f=340f28ccb748add0b2a0c84dfa552c70" alt="Hong Kong, protester, shot, rioting, jail, police" title="Hong Kong, protester, shot, rioting, jail, police" class="img-rc-12" src="https://d.newsweek.com/en/full/1532862/hong-kong-protester-shot-rioting-jail-police.jpg?w=135&amp;h=90&amp;f=340f28ccb748add0b2a0c84dfa552c70">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <h4 class="d-flex sticky-2-h4"><a href="/hong-kong-protester-shot-chest-police-jailed-10-years-rioting-assault-tsang-chi-kin-1462848">Hong Kong Protester Shot by Police Could Be Jailed for 10 Years</a></h4>
+                                    <div class="d-flex">Tsang Chi-kin, 18, is the first person to have been shot with live ammunition since the beginning of mass anti-government protests in June.</div>
+                                </article>
+                                <article class="rc-22">
+                                    <div class="float-left pic-container">
+                                        <a href="/countries-safest-global-pandemic-human-extinction-1462869">
+                                            <picture class="pic-rc-12">
+                                                <source type="image/jpeg" media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1532879/apocalypse-stock.jpg?w=135&amp;h=90&amp;f=933911cb3e80d358d6aa591c8a137f66 1x" srcset="https://d.newsweek.com/en/full/1532879/apocalypse-stock.jpg?w=135&amp;h=90&amp;f=933911cb3e80d358d6aa591c8a137f66 1x">
+                                                <source type="image/jpeg" media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1532879/apocalypse-stock.jpg?w=300&amp;h=200&amp;f=97663b20ced852842091a92bf9900c24 1x" srcset="https://d.newsweek.com/en/full/1532879/apocalypse-stock.jpg?w=300&amp;h=200&amp;f=97663b20ced852842091a92bf9900c24 1x">
+                                                <source type="image/jpeg" media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1532879/apocalypse-stock.jpg?w=135&amp;h=90&amp;f=933911cb3e80d358d6aa591c8a137f66 1x" srcset="https://d.newsweek.com/en/full/1532879/apocalypse-stock.jpg?w=135&amp;h=90&amp;f=933911cb3e80d358d6aa591c8a137f66 1x">
+                                                <img data-src="https://d.newsweek.com/en/full/1532879/apocalypse-stock.jpg?w=135&amp;h=90&amp;f=933911cb3e80d358d6aa591c8a137f66" alt="apocalypse stock" title="apocalypse stock" class="img-rc-12" src="https://d.newsweek.com/en/full/1532879/apocalypse-stock.jpg?w=135&amp;h=90&amp;f=933911cb3e80d358d6aa591c8a137f66">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <h4 class="d-flex sticky-2-h4"><a href="/countries-safest-global-pandemic-human-extinction-1462869">Study: The Places on Earth You Could Survive a Deadly Global Pandemic </a></h4>
+                                    <div class="d-flex">New Zealand researchers created a scoring system to work out which countries humans could hide in and then repopulate the planet.</div>
+                                </article>
+                                <article class="rc-22">
+                                    <div class="float-left pic-container">
+                                        <a href="/majority-worlds-largest-private-banks-dont-have-sustainable-finance-commitment-1462760">
+                                            <picture class="pic-rc-12">
+                                                <source type="image/jpeg" media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1532724/climate-protest.jpg?w=135&amp;h=90&amp;f=833bed4a8374a67df56b14c7b858d1f5 1x" srcset="https://d.newsweek.com/en/full/1532724/climate-protest.jpg?w=135&amp;h=90&amp;f=833bed4a8374a67df56b14c7b858d1f5 1x">
+                                                <source type="image/jpeg" media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1532724/climate-protest.jpg?w=300&amp;h=200&amp;f=b010ca13306b1ada626187f7803f85fe 1x" srcset="https://d.newsweek.com/en/full/1532724/climate-protest.jpg?w=300&amp;h=200&amp;f=b010ca13306b1ada626187f7803f85fe 1x">
+                                                <source type="image/jpeg" media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1532724/climate-protest.jpg?w=135&amp;h=90&amp;f=833bed4a8374a67df56b14c7b858d1f5 1x" srcset="https://d.newsweek.com/en/full/1532724/climate-protest.jpg?w=135&amp;h=90&amp;f=833bed4a8374a67df56b14c7b858d1f5 1x">
+                                                <img data-src="https://d.newsweek.com/en/full/1532724/climate-protest.jpg?w=135&amp;h=90&amp;f=833bed4a8374a67df56b14c7b858d1f5" alt="climate protest" title="climate protest" class="img-rc-12" src="https://d.newsweek.com/en/full/1532724/climate-protest.jpg?w=135&amp;h=90&amp;f=833bed4a8374a67df56b14c7b858d1f5">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <h4 class="d-flex sticky-2-h4"><a href="/majority-worlds-largest-private-banks-dont-have-sustainable-finance-commitment-1462760">Majority of World's Largest Private Banks Lack Sustainable Finance Pledge</a></h4>
+                                    <div class="d-flex">"Banks need to put out more ambitious green targets, backed by more robust accounting methodologies," World Resources Institute said in a new study.</div>
+                                </article>
+                                <article class="clearfix rc-22">
+                                    <div class="float-left pic-container">
+                                        <a href="/hacker-claims-have-medical-details-more-1-million-new-zealanders-1463339">
+                                            <picture class="pic-rc-12">
+                                                <source type="image/webp" media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1533550/full.webp?w=135&amp;h=90&amp;f=a62cb3b20582e4a381504093f60ff979 1x" srcset="https://d.newsweek.com/en/full/1533550/full.webp?w=135&amp;h=90&amp;f=a62cb3b20582e4a381504093f60ff979 1x">
+                                                <source type="image/jpeg" media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1533550/full.jpg?w=135&amp;h=90&amp;f=a62cb3b20582e4a381504093f60ff979 1x" srcset="https://d.newsweek.com/en/full/1533550/full.jpg?w=135&amp;h=90&amp;f=a62cb3b20582e4a381504093f60ff979 1x">
+                                                <source type="image/webp" media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1533550/full.webp?w=300&amp;h=200&amp;f=573ea56c9b848db655fdf99b37f346cb 1x" srcset="https://d.newsweek.com/en/full/1533550/full.webp?w=300&amp;h=200&amp;f=573ea56c9b848db655fdf99b37f346cb 1x">
+                                                <source type="image/jpeg" media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1533550/full.jpg?w=300&amp;h=200&amp;f=573ea56c9b848db655fdf99b37f346cb 1x" srcset="https://d.newsweek.com/en/full/1533550/full.jpg?w=300&amp;h=200&amp;f=573ea56c9b848db655fdf99b37f346cb 1x">
+                                                <source type="image/webp" media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1533550/full.webp?w=135&amp;h=90&amp;f=a62cb3b20582e4a381504093f60ff979 1x" srcset="https://d.newsweek.com/en/full/1533550/full.webp?w=135&amp;h=90&amp;f=a62cb3b20582e4a381504093f60ff979 1x">
+                                                <source type="image/jpeg" media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1533550/full.jpg?w=135&amp;h=90&amp;f=a62cb3b20582e4a381504093f60ff979 1x" srcset="https://d.newsweek.com/en/full/1533550/full.jpg?w=135&amp;h=90&amp;f=a62cb3b20582e4a381504093f60ff979 1x">
+                                                <img data-src="https://d.newsweek.com/en/full/1533550/full.jpg?w=135&amp;h=90&amp;f=a62cb3b20582e4a381504093f60ff979" alt="" title="" class="img-rc-12" src="https://d.newsweek.com/en/full/1533550/full.jpg?w=135&amp;h=90&amp;f=a62cb3b20582e4a381504093f60ff979">
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <h4 class="d-flex sticky-2-h4"><a href="/hacker-claims-have-medical-details-more-1-million-new-zealanders-1463339">Hacker Claims to Have Medical Details of More Than 1 Million New Zealanders</a></h4>
+                                    <div class="d-flex">A hacker working under the name Vanda The God claims to have breached the New Zealand Ministry of Health's database.</div>
+                                </article>
+
+
+                            </section>
+
+                        </section>
+                    </div>
+                </section>
+            </div>
+            <div class="row-div-2 float-left pos-stick">
+                <section class="first-list">
+                    <div>
+                        <a id="flf-anchor" href="/opinion">OPINION</a>
+                    </div>
+                    <ul class="ul-rc-13">
+                        <li class="flex-xs clearfix" id="li-rc-first">
+                            <div class="flex-xs float-left">
+                                <a class="anchor-rc-13" href="/eric-swalwell-trump-guilt-gang-boss-alibi-impeachment-1462993"> <img data-src="https://d.newsweek.com/en/full/1533434/swalwell2.png?w=63&amp;h=63&amp;f=d971ae43a285cecef71d053703ec26ad" alt="swalwell2" title="swalwell2" class="img-rc-13" src="https://d.newsweek.com/en/full/1533434/swalwell2.png?w=63&amp;h=63&amp;f=d971ae43a285cecef71d053703ec26ad"></a>
+                            </div>
+                            <div class="flex-xs">
+                                <a href="/eric-swalwell-trump-guilt-gang-boss-alibi-impeachment-1462993">Swalwell: Trump and His Gang No Different From Street Gangs I've Prosecuted</a>
+                                <div class="byline flex-xs"> By Eric&nbsp;Swalwell
+                                </div>
+                            </div>
+                        </li>
+
+                            <li class="flex-xs clearfix">
+                            <div class="flex-xs float-left">
+                                    <a class="anchor-rc-13" href="/trump-wall-national-parks-disaster-betrayal-generations-unborn-1463259"> <img data-src="https://d.newsweek.com/en/full/1533422/gil-lusk.png?w=63&amp;h=63&amp;f=53ef33cd784bee29adb99e7e76bcb610" alt="gil-lusk" title="gil-lusk" class="img-rc-13"src="https://d.newsweek.com/en/full/1533422/gil-lusk.png?w=63&amp;h=63&amp;f=53ef33cd784bee29adb99e7e76bcb610"></a>
+                                </div>
+                            <div class="flex-xs">
+                                    <a href="/trump-wall-national-parks-disaster-betrayal-generations-unborn-1463259"> In National Parks, Trump's Wall Will be a Betrayal of Generations Unborn </a>
+                                <div class="byline flex-xs"> By Gil Lusk</div>
+                                </div>
+                            </li>
+                            <li class="flex-xs clearfix">
+                            <div class="flex-xs float-left">
+                                    <a class="anchor-rc-13" href="/israel-gantz-netanyahu-stalemate-democracy-challenge-1463242"> <img data-src="https://d.newsweek.com/en/full/89510/marc-schulman.png?w=63&amp;h=63&amp;f=0544ec46ee21c238aad07cc8eaa35569" alt="Marc Schulman" title="Marc Schulman" class="img-rc-13"src="https://d.newsweek.com/en/full/89510/marc-schulman.png?w=63&amp;h=63&amp;f=0544ec46ee21c238aad07cc8eaa35569"></a>
+                                </div>
+                            <div class="flex-xs">
+                                    <a href="/israel-gantz-netanyahu-stalemate-democracy-challenge-1463242">The Netanyahu-Gantz Stalemate Is Testing Israeli Democracy to the Limit</a>
+                                <div class="byline flex-xs"> By Marc Schulman</div>
+                                </div>
+                            </li>
+                            <li class="flex-xs clearfix">
+                            <div class="flex-xs float-left">
+                                    <a class="anchor-rc-13" href="/pelosis-no-evidence-impeachment-trump-may-succeedunless-republicans-fight-back-hard-1463059"> <img data-src="https://d.newsweek.com/en/full/1506965/charlie-kirk.png?w=63&amp;h=63&amp;f=dadcbab6cd325ee70d1bfe4df5a01410" alt="Charlie Kirk" title="Charlie Kirk" class="img-rc-13"src="https://d.newsweek.com/en/full/1506965/charlie-kirk.png?w=63&amp;h=63&amp;f=dadcbab6cd325ee70d1bfe4df5a01410"></a>
+                                </div>
+                            <div class="flex-xs">
+                                    <a href="/pelosis-no-evidence-impeachment-trump-may-succeedunless-republicans-fight-back-hard-1463059">Pelosi's Attack on Trump Could Succeed—Unless Republicans Fight Back Hard</a>
+                                <div class="byline flex-xs"> By Charlie Kirk</div>
+                                </div>
+                            </li>
+                            <li class="flex-xs clearfix">
+                            <div class="flex-xs float-left">
+                                    <a class="anchor-rc-13" href="/healthcare-pricing-secrecy-has-stop-1462715"> <img class="img-rc-13 img-empty"></a>
+                                </div>
+                            <div class="flex-xs">
+                                    <a href="/healthcare-pricing-secrecy-has-stop-1462715">No Industry Hides Pricing From Its Customers Like Healthcare Does</a>
+                                <div class="byline flex-xs"> By Marty Makary</div>
+                                </div>
+                            </li>
+                            <li class="flex-xs clearfix">
+                            <div class="flex-xs float-left">
+                                    <a class="anchor-rc-13" href="/military-promoting-general-i-reported-sexual-assault-it-cant-stonewall-metoo-forever-1461658"> <img data-src="https://d.newsweek.com/en/full/1531056/kathryn-spletstoser.png?w=63&amp;h=63&amp;f=52758742696417bedff18fb0925b8625" alt="Kathryn Spletstoser" title="Kathryn Spletstoser" src="https://d.newsweek.com/en/full/1531056/kathryn-spletstoser.png?w=63&amp;h=63&amp;f=52758742696417bedff18fb0925b8625"></a>
+                                </div>
+                            <div class="flex-xs">
+                                    <a href="/military-promoting-general-i-reported-sexual-assault-it-cant-stonewall-metoo-forever-1461658">The Military Is Promoting the General Who Assaulted Me, but It Can't Stonewall #MeToo Forever</a>
+                                <div class="byline flex-xs"> By Kathryn Spletstoser</div>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <div class="block-title mid-ul">
+                            <a href="/newsfeed">LATEST NEWS</a>
                         </div>
-                        <div class="col-sm-auto col-contaner-c">
+                        <ul class="ul-rc-13">
+                            <li class="flex-xs clearfix" id="li-rc-first-14">
+                                <div class="image float-left">
+                                    <a href="/nfl-2019-sunday-night-football-indianapolis-colts-kansas-city-chiefs-tv-channel-stream-1462523">
+                                        <picture class="picture-rc-11">
+
+                                            <source type="image/webp" media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1532385/patrick-mahomes-kansas-city-chiefs.webp?w=397&amp;h=265&amp;f=cdf1ef363bb60ce606a04b1b413da8c3 1x" srcset="https://d.newsweek.com/en/full/1532385/patrick-mahomes-kansas-city-chiefs.webp?w=397&amp;h=265&amp;f=cdf1ef363bb60ce606a04b1b413da8c3 1x">
+                                            <source type="image/jpeg" media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1532385/patrick-mahomes-kansas-city-chiefs.jpg?w=397&amp;h=265&amp;f=cdf1ef363bb60ce606a04b1b413da8c3 1x" srcset="https://d.newsweek.com/en/full/1532385/patrick-mahomes-kansas-city-chiefs.jpg?w=397&amp;h=265&amp;f=cdf1ef363bb60ce606a04b1b413da8c3 1x">
+                                            <source type="image/webp" media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1532385/patrick-mahomes-kansas-city-chiefs.webp?w=767&amp;h=512&amp;f=203242d6df739a00fce372cd41681acb 1x" srcset="https://d.newsweek.com/en/full/1532385/patrick-mahomes-kansas-city-chiefs.webp?w=767&amp;h=512&amp;f=203242d6df739a00fce372cd41681acb 1x">
+                                            <source type="image/jpeg" media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1532385/patrick-mahomes-kansas-city-chiefs.jpg?w=767&amp;h=512&amp;f=203242d6df739a00fce372cd41681acb 1x" srcset="https://d.newsweek.com/en/full/1532385/patrick-mahomes-kansas-city-chiefs.jpg?w=767&amp;h=512&amp;f=203242d6df739a00fce372cd41681acb 1x">
+                                            <source type="image/webp" media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1532385/patrick-mahomes-kansas-city-chiefs.webp?w=466&amp;h=312&amp;f=9ea16bca5301694e0dba6ba018479e7f 1x" srcset="https://d.newsweek.com/en/full/1532385/patrick-mahomes-kansas-city-chiefs.webp?w=466&amp;h=312&amp;f=9ea16bca5301694e0dba6ba018479e7f 1x">
+                                            <source type="image/jpeg" media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1532385/patrick-mahomes-kansas-city-chiefs.jpg?w=466&amp;h=312&amp;f=9ea16bca5301694e0dba6ba018479e7f 1x" srcset="https://d.newsweek.com/en/full/1532385/patrick-mahomes-kansas-city-chiefs.jpg?w=466&amp;h=312&amp;f=9ea16bca5301694e0dba6ba018479e7f 1x">
+                                            <img data-src="https://d.newsweek.com/en/full/1532385/patrick-mahomes-kansas-city-chiefs.jpg?w=397&amp;h=265&amp;f=cdf1ef363bb60ce606a04b1b413da8c3" alt="Patrick Mahomes, Kansas City Chiefs" title="Patrick Mahomes, Kansas City Chiefs" class="img-rc-14" src="https://d.newsweek.com/en/full/1532385/patrick-mahomes-kansas-city-chiefs.jpg?w=397&amp;h=265&amp;f=cdf1ef363bb60ce606a04b1b413da8c3">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="info"><a href="/nfl-2019-sunday-night-football-indianapolis-colts-kansas-city-chiefs-tv-channel-stream-1462523">NFL SNF: Where to Watch Colts vs. Chiefs, TV Channel, Live Stream, Odds</a></div>
+                            </li>
+                            <li class="flex-xs clearfix">
+                                <div class="image float-left">
+                                    <a href="/serie-inter-milan-juventus-where-watch-tv-channel-live-stream-1463152">
+                                        <picture class="picture-rc-11">
+
+                                            <source type="image/webp" media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1533273/cristiano-ronaldo-juventus.webp?w=397&amp;h=265&amp;f=5cf19033e110063a8fc30dc5287edae5 1x" srcset="https://d.newsweek.com/en/full/1533273/cristiano-ronaldo-juventus.webp?w=397&amp;h=265&amp;f=5cf19033e110063a8fc30dc5287edae5 1x">
+                                            <source type="image/jpeg" media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1533273/cristiano-ronaldo-juventus.jpg?w=397&amp;h=265&amp;f=5cf19033e110063a8fc30dc5287edae5 1x" srcset="https://d.newsweek.com/en/full/1533273/cristiano-ronaldo-juventus.jpg?w=397&amp;h=265&amp;f=5cf19033e110063a8fc30dc5287edae5 1x">
+                                            <source type="image/webp" media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1533273/cristiano-ronaldo-juventus.webp?w=767&amp;h=512&amp;f=4e9fb500bdb40701d64f92f74e5bb2b3 1x" srcset="https://d.newsweek.com/en/full/1533273/cristiano-ronaldo-juventus.webp?w=767&amp;h=512&amp;f=4e9fb500bdb40701d64f92f74e5bb2b3 1x">
+                                            <source type="image/jpeg" media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1533273/cristiano-ronaldo-juventus.jpg?w=767&amp;h=512&amp;f=4e9fb500bdb40701d64f92f74e5bb2b3 1x" srcset="https://d.newsweek.com/en/full/1533273/cristiano-ronaldo-juventus.jpg?w=767&amp;h=512&amp;f=4e9fb500bdb40701d64f92f74e5bb2b3 1x">
+                                            <source type="image/webp" media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1533273/cristiano-ronaldo-juventus.webp?w=466&amp;h=312&amp;f=87aec7cbee2a205e5c854acbd5292389 1x" srcset="https://d.newsweek.com/en/full/1533273/cristiano-ronaldo-juventus.webp?w=466&amp;h=312&amp;f=87aec7cbee2a205e5c854acbd5292389 1x">
+                                            <source type="image/jpeg" media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1533273/cristiano-ronaldo-juventus.jpg?w=466&amp;h=312&amp;f=87aec7cbee2a205e5c854acbd5292389 1x" srcset="https://d.newsweek.com/en/full/1533273/cristiano-ronaldo-juventus.jpg?w=466&amp;h=312&amp;f=87aec7cbee2a205e5c854acbd5292389 1x">
+                                            <img data-src="https://d.newsweek.com/en/full/1533273/cristiano-ronaldo-juventus.jpg?w=397&amp;h=265&amp;f=5cf19033e110063a8fc30dc5287edae5" alt="Cristiano Ronaldo, Juventus" title="Cristiano Ronaldo, Juventus" class="img-rc-14" src="https://d.newsweek.com/en/full/1533273/cristiano-ronaldo-juventus.jpg?w=397&amp;h=265&amp;f=5cf19033e110063a8fc30dc5287edae5">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="info"><a href="/serie-inter-milan-juventus-where-watch-tv-channel-live-stream-1463152">Inter vs Juventus: Where to Watch Serie A, TV Channel, Live Stream and Odds</a></div>
+                            </li>
+                            <li class="flex-xs clearfix">
+                                <div class="image float-left">
+                                    <a href="/la-liga-barcelona-sevilla-where-watch-tv-channel-live-stream-1463144">
+                                        <picture class="picture-rc-11">
+
+                                            <source type="image/webp" media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1533267/luis-suarez-barcelona.webp?w=397&amp;h=265&amp;f=fd532ea55495d4ec7286881853f12c17 1x" srcset="https://d.newsweek.com/en/full/1533267/luis-suarez-barcelona.webp?w=397&amp;h=265&amp;f=fd532ea55495d4ec7286881853f12c17 1x">
+                                            <source type="image/jpeg" media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1533267/luis-suarez-barcelona.jpg?w=397&amp;h=265&amp;f=fd532ea55495d4ec7286881853f12c17 1x" srcset="https://d.newsweek.com/en/full/1533267/luis-suarez-barcelona.jpg?w=397&amp;h=265&amp;f=fd532ea55495d4ec7286881853f12c17 1x">
+                                            <source type="image/webp" media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1533267/luis-suarez-barcelona.webp?w=767&amp;h=512&amp;f=4219ec5931428a24a941017d97c349f1 1x" srcset="https://d.newsweek.com/en/full/1533267/luis-suarez-barcelona.webp?w=767&amp;h=512&amp;f=4219ec5931428a24a941017d97c349f1 1x">
+                                            <source type="image/jpeg" media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1533267/luis-suarez-barcelona.jpg?w=767&amp;h=512&amp;f=4219ec5931428a24a941017d97c349f1 1x" srcset="https://d.newsweek.com/en/full/1533267/luis-suarez-barcelona.jpg?w=767&amp;h=512&amp;f=4219ec5931428a24a941017d97c349f1 1x">
+                                            <source type="image/webp" media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1533267/luis-suarez-barcelona.webp?w=466&amp;h=312&amp;f=449234f52c38d6a560fe1b07bbfb3710 1x" srcset="https://d.newsweek.com/en/full/1533267/luis-suarez-barcelona.webp?w=466&amp;h=312&amp;f=449234f52c38d6a560fe1b07bbfb3710 1x">
+                                            <source type="image/jpeg" media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1533267/luis-suarez-barcelona.jpg?w=466&amp;h=312&amp;f=449234f52c38d6a560fe1b07bbfb3710 1x" srcset="https://d.newsweek.com/en/full/1533267/luis-suarez-barcelona.jpg?w=466&amp;h=312&amp;f=449234f52c38d6a560fe1b07bbfb3710 1x">
+                                            <img data-src="https://d.newsweek.com/en/full/1533267/luis-suarez-barcelona.jpg?w=397&amp;h=265&amp;f=fd532ea55495d4ec7286881853f12c17" alt="Luis Suarez, Barcelona" title="Luis Suarez, Barcelona" class="img-rc-14" src="https://d.newsweek.com/en/full/1533267/luis-suarez-barcelona.jpg?w=397&amp;h=265&amp;f=fd532ea55495d4ec7286881853f12c17">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="info"><a href="/la-liga-barcelona-sevilla-where-watch-tv-channel-live-stream-1463144">Barcelona vs. Sevilla: Where to Watch La Liga, TV Channel, Live Stream</a></div>
+                            </li>
+                            <li class="flex-xs clearfix">
+                                <div class="image float-left">
+                                    <a href="/powerball-lottery-results-numbers-october-2019-winners-70-million-jackpot-prize-1463417">
+                                        <picture class="picture-rc-11">
+
+                                            <source type="image/webp" media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1533634/powerball.webp?w=397&amp;h=265&amp;f=ec3fe3717049bf31546bbfab4f8589b4 1x" srcset="https://d.newsweek.com/en/full/1533634/powerball.webp?w=397&amp;h=265&amp;f=ec3fe3717049bf31546bbfab4f8589b4 1x">
+                                            <source type="image/jpeg" media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1533634/powerball.jpg?w=397&amp;h=265&amp;f=ec3fe3717049bf31546bbfab4f8589b4 1x" srcset="https://d.newsweek.com/en/full/1533634/powerball.jpg?w=397&amp;h=265&amp;f=ec3fe3717049bf31546bbfab4f8589b4 1x">
+                                            <source type="image/webp" media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1533634/powerball.webp?w=767&amp;h=512&amp;f=170e2896ee974478cb4a47d92fdd48e3 1x" srcset="https://d.newsweek.com/en/full/1533634/powerball.webp?w=767&amp;h=512&amp;f=170e2896ee974478cb4a47d92fdd48e3 1x">
+                                            <source type="image/jpeg" media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1533634/powerball.jpg?w=767&amp;h=512&amp;f=170e2896ee974478cb4a47d92fdd48e3 1x" srcset="https://d.newsweek.com/en/full/1533634/powerball.jpg?w=767&amp;h=512&amp;f=170e2896ee974478cb4a47d92fdd48e3 1x">
+                                            <source type="image/webp" media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1533634/powerball.webp?w=466&amp;h=312&amp;f=498cc7d68558c3144ff88b7028554c2b 1x" srcset="https://d.newsweek.com/en/full/1533634/powerball.webp?w=466&amp;h=312&amp;f=498cc7d68558c3144ff88b7028554c2b 1x">
+                                            <source type="image/jpeg" media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1533634/powerball.jpg?w=466&amp;h=312&amp;f=498cc7d68558c3144ff88b7028554c2b 1x" srcset="https://d.newsweek.com/en/full/1533634/powerball.jpg?w=466&amp;h=312&amp;f=498cc7d68558c3144ff88b7028554c2b 1x">
+                                            <img data-src="https://d.newsweek.com/en/full/1533634/powerball.jpg?w=397&amp;h=265&amp;f=ec3fe3717049bf31546bbfab4f8589b4" alt="Powerball" title="Powerball" class="img-rc-14" src="https://d.newsweek.com/en/full/1533634/powerball.jpg?w=397&amp;h=265&amp;f=ec3fe3717049bf31546bbfab4f8589b4">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="info"><a href="/powerball-lottery-results-numbers-october-2019-winners-70-million-jackpot-prize-1463417">Powerball Results, Numbers for 10/5/2019: Did Anyone Win the $70 Million?</a></div>
+                            </li>
+                            <li class="flex-xs clearfix">
+                                <div class="image float-left">
+                                    <a href="/national-noodle-day-1463228">
+                                        <picture class="picture-rc-11">
+
+                                            <source type="image/webp" media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1533355/national-noodles-day.webp?w=397&amp;h=265&amp;f=9bbba4538605e28b05e99c39af243313 1x" srcset="https://d.newsweek.com/en/full/1533355/national-noodles-day.webp?w=397&amp;h=265&amp;f=9bbba4538605e28b05e99c39af243313 1x">
+                                            <source type="image/jpeg" media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1533355/national-noodles-day.jpg?w=397&amp;h=265&amp;f=9bbba4538605e28b05e99c39af243313 1x" srcset="https://d.newsweek.com/en/full/1533355/national-noodles-day.jpg?w=397&amp;h=265&amp;f=9bbba4538605e28b05e99c39af243313 1x">
+                                            <source type="image/webp" media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1533355/national-noodles-day.webp?w=767&amp;h=512&amp;f=0a472dea687fbefa8297779c7f8591dd 1x" srcset="https://d.newsweek.com/en/full/1533355/national-noodles-day.webp?w=767&amp;h=512&amp;f=0a472dea687fbefa8297779c7f8591dd 1x">
+                                            <source type="image/jpeg" media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1533355/national-noodles-day.jpg?w=767&amp;h=512&amp;f=0a472dea687fbefa8297779c7f8591dd 1x" srcset="https://d.newsweek.com/en/full/1533355/national-noodles-day.jpg?w=767&amp;h=512&amp;f=0a472dea687fbefa8297779c7f8591dd 1x">
+                                            <source type="image/webp" media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1533355/national-noodles-day.webp?w=466&amp;h=312&amp;f=256da75c370e530d68ea3ef4d4e51f5a 1x" srcset="https://d.newsweek.com/en/full/1533355/national-noodles-day.webp?w=466&amp;h=312&amp;f=256da75c370e530d68ea3ef4d4e51f5a 1x">
+                                            <source type="image/jpeg" media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1533355/national-noodles-day.jpg?w=466&amp;h=312&amp;f=256da75c370e530d68ea3ef4d4e51f5a 1x" srcset="https://d.newsweek.com/en/full/1533355/national-noodles-day.jpg?w=466&amp;h=312&amp;f=256da75c370e530d68ea3ef4d4e51f5a 1x">
+                                            <img data-src="https://d.newsweek.com/en/full/1533355/national-noodles-day.jpg?w=397&amp;h=265&amp;f=9bbba4538605e28b05e99c39af243313" alt="national noodles day " title="national noodles day " class="img-rc-14" src="https://d.newsweek.com/en/full/1533355/national-noodles-day.jpg?w=397&amp;h=265&amp;f=9bbba4538605e28b05e99c39af243313">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="info"><a href="/national-noodle-day-1463228">National Noodle Day: Where to Get Free Noodles</a></div>
+                            </li>
+                            <li class="flex-xs clearfix">
+                                <div class="image float-left">
+                                    <a href="/wwe-hell-cell-2019-start-time-card-how-watch-online-1463414">
+                                        <picture class="picture-rc-11">
+
+                                            <source type="image/webp" media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1533631/seth-rollins-vs-fiend-hell-cell.webp?w=397&amp;h=265&amp;f=8583dbc3074e8c5cf8056ab7375ea072 1x" srcset="https://d.newsweek.com/en/full/1533631/seth-rollins-vs-fiend-hell-cell.webp?w=397&amp;h=265&amp;f=8583dbc3074e8c5cf8056ab7375ea072 1x">
+                                            <source type="image/jpeg" media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1533631/seth-rollins-vs-fiend-hell-cell.jpg?w=397&amp;h=265&amp;f=8583dbc3074e8c5cf8056ab7375ea072 1x" srcset="https://d.newsweek.com/en/full/1533631/seth-rollins-vs-fiend-hell-cell.jpg?w=397&amp;h=265&amp;f=8583dbc3074e8c5cf8056ab7375ea072 1x">
+                                            <source type="image/webp" media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1533631/seth-rollins-vs-fiend-hell-cell.webp?w=767&amp;h=512&amp;f=1568cda668a4325204bb2384169e2afd 1x" srcset="https://d.newsweek.com/en/full/1533631/seth-rollins-vs-fiend-hell-cell.webp?w=767&amp;h=512&amp;f=1568cda668a4325204bb2384169e2afd 1x">
+                                            <source type="image/jpeg" media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1533631/seth-rollins-vs-fiend-hell-cell.jpg?w=767&amp;h=512&amp;f=1568cda668a4325204bb2384169e2afd 1x" srcset="https://d.newsweek.com/en/full/1533631/seth-rollins-vs-fiend-hell-cell.jpg?w=767&amp;h=512&amp;f=1568cda668a4325204bb2384169e2afd 1x">
+                                            <source type="image/webp" media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1533631/seth-rollins-vs-fiend-hell-cell.webp?w=466&amp;h=312&amp;f=6837d2b5b0a0e57067e9e4087a5ed37d 1x" srcset="https://d.newsweek.com/en/full/1533631/seth-rollins-vs-fiend-hell-cell.webp?w=466&amp;h=312&amp;f=6837d2b5b0a0e57067e9e4087a5ed37d 1x">
+                                            <source type="image/jpeg" media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1533631/seth-rollins-vs-fiend-hell-cell.jpg?w=466&amp;h=312&amp;f=6837d2b5b0a0e57067e9e4087a5ed37d 1x" srcset="https://d.newsweek.com/en/full/1533631/seth-rollins-vs-fiend-hell-cell.jpg?w=466&amp;h=312&amp;f=6837d2b5b0a0e57067e9e4087a5ed37d 1x">
+                                            <img data-src="https://d.newsweek.com/en/full/1533631/seth-rollins-vs-fiend-hell-cell.jpg?w=397&amp;h=265&amp;f=8583dbc3074e8c5cf8056ab7375ea072" alt="seth rollins vs fiend hell in cell" title="seth rollins vs fiend hell in cell" class="img-rc-14" src="https://d.newsweek.com/en/full/1533631/seth-rollins-vs-fiend-hell-cell.jpg?w=397&amp;h=265&amp;f=8583dbc3074e8c5cf8056ab7375ea072">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="info"><a href="/wwe-hell-cell-2019-start-time-card-how-watch-online-1463414">WWE Hell in a Cell Essentials</a></div>
+                            </li>
+                            <li class="flex-xs clearfix">
+                                <div class="image float-left">
+                                    <a href="/mar-lago-act-america-1463411">
+                                        <picture class="picture-rc-11">
+                                            <source type="image/webp" media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1533625/donald-trump-mar-lago.webp?w=397&amp;h=265&amp;f=f0fd23dd4479e7c90c858c52ef8b1fe8 1x" srcset="https://d.newsweek.com/en/full/1533625/donald-trump-mar-lago.webp?w=397&amp;h=265&amp;f=f0fd23dd4479e7c90c858c52ef8b1fe8 1x">
+                                            <source type="image/jpeg" media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1533625/donald-trump-mar-lago.jpg?w=397&amp;h=265&amp;f=f0fd23dd4479e7c90c858c52ef8b1fe8 1x" srcset="https://d.newsweek.com/en/full/1533625/donald-trump-mar-lago.jpg?w=397&amp;h=265&amp;f=f0fd23dd4479e7c90c858c52ef8b1fe8 1x">
+                                            <source type="image/webp" media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1533625/donald-trump-mar-lago.webp?w=767&amp;h=512&amp;f=4888d1cb60a1d35e00c7d51cd2fccda1 1x" srcset="https://d.newsweek.com/en/full/1533625/donald-trump-mar-lago.webp?w=767&amp;h=512&amp;f=4888d1cb60a1d35e00c7d51cd2fccda1 1x">
+                                            <source type="image/jpeg" media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1533625/donald-trump-mar-lago.jpg?w=767&amp;h=512&amp;f=4888d1cb60a1d35e00c7d51cd2fccda1 1x" srcset="https://d.newsweek.com/en/full/1533625/donald-trump-mar-lago.jpg?w=767&amp;h=512&amp;f=4888d1cb60a1d35e00c7d51cd2fccda1 1x">
+                                            <source type="image/webp" media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1533625/donald-trump-mar-lago.webp?w=466&amp;h=312&amp;f=6ca4a5f1323458ae5469a942bf2e3531 1x" srcset="https://d.newsweek.com/en/full/1533625/donald-trump-mar-lago.webp?w=466&amp;h=312&amp;f=6ca4a5f1323458ae5469a942bf2e3531 1x">
+                                            <source type="image/jpeg" media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1533625/donald-trump-mar-lago.jpg?w=466&amp;h=312&amp;f=6ca4a5f1323458ae5469a942bf2e3531 1x" srcset="https://d.newsweek.com/en/full/1533625/donald-trump-mar-lago.jpg?w=466&amp;h=312&amp;f=6ca4a5f1323458ae5469a942bf2e3531 1x">
+                                            <img data-src="https://d.newsweek.com/en/full/1533625/donald-trump-mar-lago.jpg?w=397&amp;h=265&amp;f=f0fd23dd4479e7c90c858c52ef8b1fe8" alt="Donald Trump and Mar-a-Lago" title="Donald Trump and Mar-a-Lago" class="img-rc-14" src="https://d.newsweek.com/en/full/1533625/donald-trump-mar-lago.jpg?w=397&amp;h=265&amp;f=f0fd23dd4479e7c90c858c52ef8b1fe8">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="info"><a href="/mar-lago-act-america-1463411">Extremist Group ACT for America to Hold Annual Gala at Trump's Mar-a-Lago</a></div>
+                            </li>
+                        </ul>
+                    </ul>
+                </section>
+                <section class="ads-maybe">
+                    <article class="rc-11">
+                        <div class="layer-container">
+                            <div  class="layer"><span class="layer-font1">Sponsored Insight</span></div>
                             <div>
-                                <a href="/saba-caribbean-island-1393728">
-                                    <picture class="picture-rc-11" style="padding-bottom: 66.7506%;">
-                                        <img class="img-rc-11" data-src="https://d.newsweek.com/en/full/1394571/saba.jpg?w=397&amp;h=265&amp;f=23ecdd36d1fcc063c56da38984eddb99" alt="Saba" title="Saba" class="mapping-mobile lazysize lazyloaded" src="https://d.newsweek.com/en/full/1394571/saba.jpg?w=397&amp;h=265&amp;f=23ecdd36d1fcc063c56da38984eddb99">
+                                <a href="https://www.newsweek.com/insights/leading-public-health-programs-2019">
+                                    <picture class="picture-rc-11">
+                                        <img src="https://d.newsweek.com/en/full/1529027/new-york-medical-college.jpg?w=343&h=229&f=c4792199e117d74538208e0760c3e83e" alt="">
                                     </picture>
                                 </a>
                             </div>
-                            <div>
-                                <div class="title">
-                                    <a href="/saba-caribbean-island-1393728">Saba: The Greatest Little Island You Never Heard Of</a></div>
-                                <div class="summary">Islanders call Saba "The Unspoiled Queen of the Caribbean" for its pristine landscapes as well as the absence of crowds and cruise ship throngs.</div>
-                                <div class="tags"><a href="topic/travel" class="active">Travel</a></div>
-                            </div>
                         </div>
-
+                        <h3>
+                    <a href="https://www.newsweek.com/insights/leading-public-health-programs-2019">What Can a Degree in Public Health Do For You?</a></h3>
+                        <div class="text-container">
+                            The field of public health is a powerful draw for those who feel inspired to make a positive difference in their communities. Find out more.
+                        </div>
+                    </article>
+                </section>
+            </div>
+        </div>
+        <div class="row">
+            <section class="d-flex container second-list align-items-end">
+                <div class="col ssl-1">
+                    <div class="wrap">
+                        <div class="layer"><a href="/2019/10/18/issue.html">October 18 ISSUE</a></div>
+                            <picture class="pic-rc-13-lead">
+                                <source type="image/webp" media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1531488/october-11-18-2019.webp?w=290&amp;h=387&amp;q=90&amp;f=46fbd21cd67a7623bbbd03ec80bc939a 1x" srcset="https://d.newsweek.com/en/full/1531488/october-11-18-2019.webp?w=290&amp;h=387&amp;q=90&amp;f=46fbd21cd67a7623bbbd03ec80bc939a 1x">
+                                <source type="image/jpeg" media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1531488/october-11-18-2019.jpg?w=290&amp;h=387&amp;q=90&amp;f=46fbd21cd67a7623bbbd03ec80bc939a 1x" srcset="https://d.newsweek.com/en/full/1531488/october-11-18-2019.jpg?w=290&amp;h=387&amp;q=90&amp;f=46fbd21cd67a7623bbbd03ec80bc939a 1x">
+                                <source type="image/webp" media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1531488/october-11-18-2019.webp?w=726&amp;h=969&amp;q=90&amp;f=86696c070a402a6d9824c0d2f861d340 1x" srcset="https://d.newsweek.com/en/full/1531488/october-11-18-2019.webp?w=726&amp;h=969&amp;q=90&amp;f=86696c070a402a6d9824c0d2f861d340 1x">
+                                <source type="image/jpeg" media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1531488/october-11-18-2019.jpg?w=726&amp;h=969&amp;q=90&amp;f=86696c070a402a6d9824c0d2f861d340 1x" srcset="https://d.newsweek.com/en/full/1531488/october-11-18-2019.jpg?w=726&amp;h=969&amp;q=90&amp;f=86696c070a402a6d9824c0d2f861d340 1x">
+                                <source type="image/webp" media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1531488/october-11-18-2019.webp?w=450&amp;h=600&amp;q=90&amp;f=cb96ddc0ed7b1a82df592482ad32df83 1x" srcset="https://d.newsweek.com/en/full/1531488/october-11-18-2019.webp?w=450&amp;h=600&amp;q=90&amp;f=cb96ddc0ed7b1a82df592482ad32df83 1x">
+                                <source type="image/jpeg" media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1531488/october-11-18-2019.jpg?w=450&amp;h=600&amp;q=90&amp;f=cb96ddc0ed7b1a82df592482ad32df83 1x" srcset="https://d.newsweek.com/en/full/1531488/october-11-18-2019.jpg?w=450&amp;h=600&amp;q=90&amp;f=cb96ddc0ed7b1a82df592482ad32df83 1x">
+                                <img data-src="https://d.newsweek.com/en/full/1531488/october-11-18-2019.jpg?w=360&amp;h=480&amp;q=90&amp;f=8a6178c02956a944ee55a303cf81ef89" alt="October 11-18, 2019" title="October 11-18, 2019" class="img-rc-15-lead" src="https://d.newsweek.com/en/full/1531488/october-11-18-2019.jpg?w=360&amp;h=480&amp;q=90&amp;f=8a6178c02956a944ee55a303cf81ef89">
+                            </picture>
                     </div>
-                    </section>
+                    <a href="/2019/10/18/issue.html" class="lead-link">See All Features</a>
+                </div>
+                <div class="row flex-nowrap ssl-2">
+                    <article class="col layer-container">
+                            <div class="wrap">
+                                <div class="layer"><a href="/2019/10/18/issue.html">October 18 ISSUE</a></div>
+                                <div class="layer2"><a href="/2019/10/18/issue.html">October 18 ISSUE</a></div>
+                                <a href="/gleefully-defiant-donald-trump-ready-fight-impeachment-will-his-longtime-playbook-fail-him-1461599">
+                                    <picture class="pic-rc-13">
+                                        <source type="image/webp" media="(min-width: 992px)" data-srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.webp?w=466&amp;h=311&amp;l=49&amp;t=27&amp;q=90&amp;f=49aee14da0019591dcabb8d940407d8a 1x" srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.webp?w=466&amp;h=311&amp;l=49&amp;t=27&amp;q=90&amp;f=49aee14da0019591dcabb8d940407d8a 1x">
+                                        <source type="image/jpeg" media="(min-width: 992px)" data-srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.jpg?w=466&amp;h=311&amp;l=49&amp;t=27&amp;q=90&amp;f=49aee14da0019591dcabb8d940407d8a 1x" srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.jpg?w=466&amp;h=311&amp;l=49&amp;t=27&amp;q=90&amp;f=49aee14da0019591dcabb8d940407d8a 1x">
+                                        <source type="image/webp" media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.webp?w=397&amp;h=265&amp;l=49&amp;t=27&amp;q=90&amp;f=5e2cf72b8e7114c0b0398435d016c86f 1x" srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.webp?w=397&amp;h=265&amp;l=49&amp;t=27&amp;q=90&amp;f=5e2cf72b8e7114c0b0398435d016c86f 1x">
+                                        <source type="image/jpeg" media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.jpg?w=397&amp;h=265&amp;l=49&amp;t=27&amp;q=90&amp;f=5e2cf72b8e7114c0b0398435d016c86f 1x" srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.jpg?w=397&amp;h=265&amp;l=49&amp;t=27&amp;q=90&amp;f=5e2cf72b8e7114c0b0398435d016c86f 1x">
+                                        <source type="image/webp" media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.webp?w=767&amp;h=512&amp;l=49&amp;t=27&amp;q=90&amp;f=9e455fbe3fc83f303a8bb3131e7c4a12 1x" srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.webp?w=767&amp;h=512&amp;l=49&amp;t=27&amp;q=90&amp;f=9e455fbe3fc83f303a8bb3131e7c4a12 1x">
+                                        <source type="image/jpeg" media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.jpg?w=767&amp;h=512&amp;l=49&amp;t=27&amp;q=90&amp;f=9e455fbe3fc83f303a8bb3131e7c4a12 1x" srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.jpg?w=767&amp;h=512&amp;l=49&amp;t=27&amp;q=90&amp;f=9e455fbe3fc83f303a8bb3131e7c4a12 1x">
+                                        <source type="image/webp" media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.webp?w=466&amp;h=311&amp;l=49&amp;t=27&amp;q=90&amp;f=49aee14da0019591dcabb8d940407d8a 1x" srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.webp?w=466&amp;h=311&amp;l=49&amp;t=27&amp;q=90&amp;f=49aee14da0019591dcabb8d940407d8a 1x">
+                                        <source type="image/jpeg" media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.jpg?w=466&amp;h=311&amp;l=49&amp;t=27&amp;q=90&amp;f=49aee14da0019591dcabb8d940407d8a 1x" srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.jpg?w=466&amp;h=311&amp;l=49&amp;t=27&amp;q=90&amp;f=49aee14da0019591dcabb8d940407d8a 1x">
+                                        <img data-src="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.jpg?w=466&amp;h=311&amp;l=49&amp;t=27&amp;q=90&amp;f=49aee14da0019591dcabb8d940407d8a" alt="Trump Impeachment COVER &quot;Come and Get Me&quot;" title="Trump Impeachment COVER &quot;Come and Get Me&quot;" class="img-rc-15" src="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.jpg?w=466&amp;h=311&amp;l=49&amp;t=27&amp;q=90&amp;f=49aee14da0019591dcabb8d940407d8a">
+                                    </picture>
+                                </a>
+                            </div>
+                    </article>
+                    <article class="col layer-container">
+                            <div class="wrap">
+                                <div class="layer"><a href="/2019/10/18/issue.html">October 18 ISSUE</a></div>
+                                <div class="layer2"><a href="/2019/10/18/issue.html">October 18 ISSUE</a></div>
+                                <a href="/gleefully-defiant-donald-trump-ready-fight-impeachment-will-his-longtime-playbook-fail-him-1461599">
+                                    <picture class="pic-rc-13">
+                                        <source type="image/webp" media="(min-width: 992px)" data-srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.webp?w=466&amp;h=311&amp;l=49&amp;t=27&amp;q=90&amp;f=49aee14da0019591dcabb8d940407d8a 1x" srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.webp?w=466&amp;h=311&amp;l=49&amp;t=27&amp;q=90&amp;f=49aee14da0019591dcabb8d940407d8a 1x">
+                                        <source type="image/jpeg" media="(min-width: 992px)" data-srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.jpg?w=466&amp;h=311&amp;l=49&amp;t=27&amp;q=90&amp;f=49aee14da0019591dcabb8d940407d8a 1x" srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.jpg?w=466&amp;h=311&amp;l=49&amp;t=27&amp;q=90&amp;f=49aee14da0019591dcabb8d940407d8a 1x">
+                                        <source type="image/webp" media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.webp?w=397&amp;h=265&amp;l=49&amp;t=27&amp;q=90&amp;f=5e2cf72b8e7114c0b0398435d016c86f 1x" srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.webp?w=397&amp;h=265&amp;l=49&amp;t=27&amp;q=90&amp;f=5e2cf72b8e7114c0b0398435d016c86f 1x">
+                                        <source type="image/jpeg" media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.jpg?w=397&amp;h=265&amp;l=49&amp;t=27&amp;q=90&amp;f=5e2cf72b8e7114c0b0398435d016c86f 1x" srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.jpg?w=397&amp;h=265&amp;l=49&amp;t=27&amp;q=90&amp;f=5e2cf72b8e7114c0b0398435d016c86f 1x">
+                                        <source type="image/webp" media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.webp?w=767&amp;h=512&amp;l=49&amp;t=27&amp;q=90&amp;f=9e455fbe3fc83f303a8bb3131e7c4a12 1x" srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.webp?w=767&amp;h=512&amp;l=49&amp;t=27&amp;q=90&amp;f=9e455fbe3fc83f303a8bb3131e7c4a12 1x">
+                                        <source type="image/jpeg" media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.jpg?w=767&amp;h=512&amp;l=49&amp;t=27&amp;q=90&amp;f=9e455fbe3fc83f303a8bb3131e7c4a12 1x" srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.jpg?w=767&amp;h=512&amp;l=49&amp;t=27&amp;q=90&amp;f=9e455fbe3fc83f303a8bb3131e7c4a12 1x">
+                                        <source type="image/webp" media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.webp?w=466&amp;h=311&amp;l=49&amp;t=27&amp;q=90&amp;f=49aee14da0019591dcabb8d940407d8a 1x" srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.webp?w=466&amp;h=311&amp;l=49&amp;t=27&amp;q=90&amp;f=49aee14da0019591dcabb8d940407d8a 1x">
+                                        <source type="image/jpeg" media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.jpg?w=466&amp;h=311&amp;l=49&amp;t=27&amp;q=90&amp;f=49aee14da0019591dcabb8d940407d8a 1x" srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.jpg?w=466&amp;h=311&amp;l=49&amp;t=27&amp;q=90&amp;f=49aee14da0019591dcabb8d940407d8a 1x">
+                                        <img data-src="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.jpg?w=466&amp;h=311&amp;l=49&amp;t=27&amp;q=90&amp;f=49aee14da0019591dcabb8d940407d8a" alt="Trump Impeachment COVER &quot;Come and Get Me&quot;" title="Trump Impeachment COVER &quot;Come and Get Me&quot;" class="img-rc-15" src="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.jpg?w=466&amp;h=311&amp;l=49&amp;t=27&amp;q=90&amp;f=49aee14da0019591dcabb8d940407d8a">
+                                    </picture>
+                                </a>
+                            </div>
+                    </article>
+                    <article class="col layer-container">
+                            <div class="wrap">
+                                <div class="layer"><a href="/2019/10/18/issue.html">October 18 ISSUE</a></div>
+                                <div class="layer2"><a href="/2019/10/18/issue.html">October 18 ISSUE</a></div>
+                                <a href="/gleefully-defiant-donald-trump-ready-fight-impeachment-will-his-longtime-playbook-fail-him-1461599">
+                                    <picture class="pic-rc-13">
+                                        <source type="image/webp" media="(min-width: 992px)" data-srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.webp?w=466&amp;h=311&amp;l=49&amp;t=27&amp;q=90&amp;f=49aee14da0019591dcabb8d940407d8a 1x" srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.webp?w=466&amp;h=311&amp;l=49&amp;t=27&amp;q=90&amp;f=49aee14da0019591dcabb8d940407d8a 1x">
+                                        <source type="image/jpeg" media="(min-width: 992px)" data-srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.jpg?w=466&amp;h=311&amp;l=49&amp;t=27&amp;q=90&amp;f=49aee14da0019591dcabb8d940407d8a 1x" srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.jpg?w=466&amp;h=311&amp;l=49&amp;t=27&amp;q=90&amp;f=49aee14da0019591dcabb8d940407d8a 1x">
+                                        <source type="image/webp" media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.webp?w=397&amp;h=265&amp;l=49&amp;t=27&amp;q=90&amp;f=5e2cf72b8e7114c0b0398435d016c86f 1x" srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.webp?w=397&amp;h=265&amp;l=49&amp;t=27&amp;q=90&amp;f=5e2cf72b8e7114c0b0398435d016c86f 1x">
+                                        <source type="image/jpeg" media="(min-width: 768px)" data-srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.jpg?w=397&amp;h=265&amp;l=49&amp;t=27&amp;q=90&amp;f=5e2cf72b8e7114c0b0398435d016c86f 1x" srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.jpg?w=397&amp;h=265&amp;l=49&amp;t=27&amp;q=90&amp;f=5e2cf72b8e7114c0b0398435d016c86f 1x">
+                                        <source type="image/webp" media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.webp?w=767&amp;h=512&amp;l=49&amp;t=27&amp;q=90&amp;f=9e455fbe3fc83f303a8bb3131e7c4a12 1x" srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.webp?w=767&amp;h=512&amp;l=49&amp;t=27&amp;q=90&amp;f=9e455fbe3fc83f303a8bb3131e7c4a12 1x">
+                                        <source type="image/jpeg" media="(min-width: 481px)" data-srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.jpg?w=767&amp;h=512&amp;l=49&amp;t=27&amp;q=90&amp;f=9e455fbe3fc83f303a8bb3131e7c4a12 1x" srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.jpg?w=767&amp;h=512&amp;l=49&amp;t=27&amp;q=90&amp;f=9e455fbe3fc83f303a8bb3131e7c4a12 1x">
+                                        <source type="image/webp" media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.webp?w=466&amp;h=311&amp;l=49&amp;t=27&amp;q=90&amp;f=49aee14da0019591dcabb8d940407d8a 1x" srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.webp?w=466&amp;h=311&amp;l=49&amp;t=27&amp;q=90&amp;f=49aee14da0019591dcabb8d940407d8a 1x">
+                                        <source type="image/jpeg" media="(min-width: 0px)" data-srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.jpg?w=466&amp;h=311&amp;l=49&amp;t=27&amp;q=90&amp;f=49aee14da0019591dcabb8d940407d8a 1x" srcset="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.jpg?w=466&amp;h=311&amp;l=49&amp;t=27&amp;q=90&amp;f=49aee14da0019591dcabb8d940407d8a 1x">
+                                        <img data-src="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.jpg?w=466&amp;h=311&amp;l=49&amp;t=27&amp;q=90&amp;f=49aee14da0019591dcabb8d940407d8a" alt="Trump Impeachment COVER &quot;Come and Get Me&quot;" title="Trump Impeachment COVER &quot;Come and Get Me&quot;" class="img-rc-15" src="https://d.newsweek.com/en/full/1530960/trump-impeachment-cover-come-get-me.jpg?w=466&amp;h=311&amp;l=49&amp;t=27&amp;q=90&amp;f=49aee14da0019591dcabb8d940407d8a">
+                                    </picture>
+                                </a>
+                            </div>
+                    </article>
                 </div>
             </section>
-        </div>
-        <div class="row-div-2 float-left">
-
         </div>
     </main>
 </body>
