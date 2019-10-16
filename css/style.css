@@ -1,4 +1,6 @@
 * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -10,8 +12,6 @@ html,
 body{
 
     width: 100%;
-    /*display: flex;
-    flex-wrap: wrap;*/
     min-height: 100%;
     font-size: 15px;
     line-height: 17px;
@@ -20,7 +20,7 @@ body{
 body {
     margin: 0;
     padding: 0;
-    height: fit-content; /* change min-height: 100% to*/
+    height: fit-content;
     height: -moz-max-content;
     background-color: #f4f5f6;
 }
@@ -32,8 +32,11 @@ a:visited {
     line-height: 1rem;
 }
 
-.header-container {
+.row {
+    margin: 0;
+}
 
+.header-container {
     width: 100%;
     max-width: 100%;
     height: fit-content;
@@ -44,7 +47,6 @@ a:visited {
 
 
 .page-header {
-
     max-width: 1310px;
     padding: 20px 10px 0;
     margin: auto;
@@ -96,7 +98,6 @@ a:visited {
 
 .sub-anchor {
     display: flex;
-
     width: 130px;
     color: red;
     font-size: 1.1rem;
@@ -253,11 +254,12 @@ main {
 .pos-stick {
     position: -webkit-sticky;
     position: sticky;
-    top: 61px;
+    top: -900px;
 }
 
 .row-div-1 {
     width: 71%;
+    min-width: 670px;
     height: fit-content;
     padding: 0 0 0 20px;
 }
@@ -305,9 +307,9 @@ main {
 }
 
 .layer-container a{
-    display: block;
     width: 100%;
     height: 100%;
+    text-decoration-color: red;
 }
 
 .layer {
@@ -319,6 +321,17 @@ main {
     background-color: rgba(255,255,255,.9);
 }
 
+.lp-0 {
+    padding: 0;
+    width: 100%;
+    background: #fff;
+}
+
+.lp-1 {
+    padding: 0;
+    background: #fff;
+}
+
 .layer2 {
     z-index: 1;
     position: absolute;
@@ -328,18 +341,56 @@ main {
     background-color: #f72210;
 }
 
-.layer a{
+.layer3 {
+    padding: 8px 15px 9px;
+    background-color: rgba(255,255,255,.9);
+}
+
+.layer4 {
+    padding: 8px 15px 9px;
+    background-color: #f72210;
+}
+
+.layer5 {
+    background-color: rgba(255,255,255,.9);
+}
+
+.layer a {
     display: block;
     font: bold 15px sans-serif;
     color: #f72210;
     text-transform: uppercase;
 }
 
-.layer2 a{
+.layer2 a {
     display: block;
     font: bold 15px sans-serif;
     color: rgba(255,255,255,.9);
     text-transform: uppercase;
+}
+
+.layer3 a{
+    display: block;
+    font: bold 15px sans-serif;
+    color: #f72210;
+    text-transform: uppercase;
+}
+
+.layer4 a{
+    display: block;
+    font: bold 15px sans-serif;
+    color: rgba(255,255,255,.9);
+    text-transform: uppercase;
+}
+
+.layer5 a {
+    width: 70px;
+    height: 52px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 58px;
+    text-indent: 5px;
+    text-align: center;
 }
 
 .picture-rc-11,
@@ -367,6 +418,7 @@ main {
 
 .row-div-2 {
     width: 29%;
+    min-width: 275px;
     height: fit-content;
     padding-left: 20px;
 }
@@ -401,6 +453,13 @@ main {
     margin-top: 10px;
     font-size: 22px;
     line-height: 22px;
+}
+
+.h5 {
+    -webkit-flex: 1;
+    flex: 1;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .related {
@@ -536,6 +595,7 @@ a.active:visited {
     width: 100%;
     height: fit-content;
     align-content: flex-end;
+    margin-top: 2%;
 }
 
 .ssl-1 {
@@ -555,6 +615,20 @@ a.active:visited {
     overflow: hidden;
 }
 
+.pic-rc-14 {
+    display: block;
+    width: 397px;
+    height: 265px;
+    overflow: hidden;
+}
+
+.pic-rc-15 {
+    display: block;
+    width: 135px;
+    height: 90px;
+    overflow: hidden;
+}
+
 .img-rc-15-lead {
     width: 290px;
     height: 387px;
@@ -568,8 +642,22 @@ a.active:visited {
 
 }
 
+.img-rc-16 {
+    position: relative;
+    width: auto;
+    height: 265px;
+
+}
+
+.img-rc-17 {
+    position: relative;
+    width: auto;
+    height: 90px;
+}
+
 .wrap {
     position: relative;
+    height: fit-content;
 }
 
 .lead-link {
@@ -640,6 +728,7 @@ a.active:visited {
     font-weight: bolder;
     text-transform: uppercase;
     line-height: 24px;
+    padding: 5px 5px;
 }
 
 #in-anchor2 {
@@ -648,6 +737,7 @@ a.active:visited {
     font-weight: bolder;
     text-transform: uppercase;
     line-height: 24px;
+    padding: 5px 12px;
 }
 
 .rc-22 {
@@ -667,9 +757,276 @@ a.active:visited {
 }
 
 .info {
-    padding-left: 42%;
+    padding-left: 140px;
 }
 
 .ads-maybe {
     margin-top: 15%;
+}
+
+.ssl-2 {
+    width: 100%;
+    height: 100%;
+}
+
+.header-ssl-2 {
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #d9d9d9;
+    margin-bottom: 2%;
+    font: bold 18px sans-serif;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.logo-ssl-2 {
+    flex: none;
+    display: block;
+    width: 29px;
+    height: 28px;
+    background: url(https://g.newsweek.com/www/images/logo-n1.svg) center center no-repeat #f72210;
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.header-ssl-2-2 {
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid #d9d9d9;
+    margin: 15px;
+    padding: 2% 0;
+    font: bold 20px sans-serif;
+    color: red;
+    text-transform: uppercase;
+}
+
+.header-ssl-2-3 {
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid #d9d9d9;
+    font: bold 20px sans-serif;
+    color: red;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    margin: 15px 0;
+    font-size: 16px;
+}
+
+.header-ssl-2-4 {
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid #d9d9d9;
+    font: bold 20px sans-serif;
+    color: red;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    margin: 15px 0;
+    font-size: 16px;
+}
+
+.count-link {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+    color:#e9212e;
+}
+
+.tul-div {
+    width: 100%;
+    height: fit-content;
+}
+
+.triple-container {
+    width: 100%;
+    height: fit-content;
+    list-style: none;
+}
+
+.triple-container li {
+    margin-bottom: 5%;
+}
+
+.last-x {
+    flex: 1;
+    width: 100%;
+}
+
+.double-img-container {
+    position: relative;
+    height: 100%;
+    background-color: #f4f5f6;
+    padding: 4%;
+}
+
+.di-desc {
+    background-color: #f4f5f6;
+    padding: 4%;
+}
+
+.double-img1 {
+    position: relative;
+    width: 170px;
+    height: fit-content;
+}
+
+.double-img2 {
+    position: absolute;
+    left: 40%;
+    top: 12%;
+    width: 170px;
+    height: fit-content;
+}
+
+.last-x2 {
+    flex: 1;
+}
+
+.di-background {
+    background: url("https://d.newsweek.com/en/full/1525348/newsletter-promo-home-page.png?w=397&h=265&q=90&f=172a044c08b5e64f42dcb61b425487bf") center center no-repeat;
+    background-size: cover;
+    max-width: 191px;
+    width: 48%;
+    height: 100%;
+}
+
+.ssl-inner {
+    padding-left: 40px;
+    padding-right: 0;
+}
+
+.last-x2-info {
+    flex: 1;
+    padding: 20px;
+}
+
+.last-x2-p {
+    margin: 35px 0;
+}
+
+.sign-anchor {
+    display: flex;
+    width: 130px;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color: red;
+    padding: 0 10px;
+}
+
+#in-anchor3 {
+    width: 115px;
+    color: #fff;
+    padding: 10px 15px;
+}
+
+.sign-anchor svg {
+    fill: #fff;
+}
+
+footer {
+    background-color: #fff;
+    max-width: 1310px;
+    margin: 0 auto;
+    padding: 30px 0 30px 60px;
+    border-top: 2px solid #f4f5f6;
+
+}
+
+.footer-brand-anchor svg {
+    display: block;
+    width: 236px;
+    height: 36px;
+    margin-right: 15px;
+    margin-bottom: 12px;
+    fill: #f72210;
+}
+
+.copyright {
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #666;
+    margin-bottom: 12px;
+}
+
+.footer-bottom {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #d9d9d9;
+}
+
+.footer-ul {
+    list-style: none;
+    padding-right: 30px;
+    margin: 0;
+}
+
+.social {
+    font-size: 26px;
+    vertical-align: top;
+    text-align: center;
+    display: block;
+    font-family: sans-serif;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.fb-left {
+    padding: 0;
+}
+
+.fb-right {
+    padding: 0;
+}
+
+.social svg {
+    width: 25px;
+    height: 25px;
+}
+
+.footer-links-menu {
+    padding: 0;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.menu li {
+    border-right: 1px solid #d9d9d9;
+    padding-right: 10px;
+    margin: 6px 16px 6px 0;
+}
+
+.menu li a {
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.footer-links-edition label {
+    margin-top: 6px;
+    margin-right: 15px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 979px) {
+    .media-1 {
+        height: fit-content;
+        flex-wrap: wrap;
+    }
+    .row-div-1,
+    .row-div-2 {
+        width: 100%;
+        flex-grow: 1;
+    }
+    .ads-maybe{
+        display: none;
+    }
 }
