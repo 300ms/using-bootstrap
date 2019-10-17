@@ -604,21 +604,24 @@ a.active:visited {
 
 .pic-rc-13-lead {
     display: block;
+    position: relative;
     width: 100%;
-    height: fit-content;
+    overflow: hidden;
 }
 
 .pic-rc-13 {
     display: block;
-    width: 290px;
-    height: 290px;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
     overflow: hidden;
 }
 
 .pic-rc-14 {
     display: block;
-    width: 397px;
-    height: 265px;
+    position: relative;
+    width: 100%;
+    padding-bottom: 65%;
     overflow: hidden;
 }
 
@@ -630,23 +633,28 @@ a.active:visited {
 }
 
 .img-rc-15-lead {
-    width: 290px;
-    height: 387px;
+    width: 100%;
 }
 
 .img-rc-15 {
-    position: relative;
-    right: 25%;
-    width: auto;
-    height: 290px;
+    transform: translate(-50%,0%);
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: auto;
+        height: 100%;
+        max-width: inherit;
 
 }
 
 .img-rc-16 {
-    position: relative;
-    width: auto;
-    height: 265px;
-
+    transform: translate(-50%,0%);
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: auto;
+        height: 100%;
+        max-width: inherit;
 }
 
 .img-rc-17 {
@@ -766,6 +774,11 @@ a.active:visited {
 
 .ssl-2 {
     width: 100%;
+    height: 100%;
+}
+
+.ssl-re-size {
+    width: 75%;
     height: 100%;
 }
 
@@ -1016,6 +1029,10 @@ section {
     margin-bottom: 20px;
 }
 
+[class*="col-4"] {
+    min-width: 287px;
+}
+
 @media only screen and (max-width: 979px) {
     .media-1 {
         height: fit-content;
@@ -1029,4 +1046,8 @@ section {
     .ads-maybe{
         display: none;
     }
+    .second-list {
+        flex-wrap: wrap;
+    }
+
 }
