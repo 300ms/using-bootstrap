@@ -600,6 +600,7 @@ a.active:visited {
 
 .ssl-1 {
     margin-right: 20px;
+    min-width: 219px;
 }
 
 .pic-rc-13-lead {
@@ -946,6 +947,10 @@ footer {
 
 }
 
+.prc-13-container {
+    min-width: 238px;
+}
+
 .footer-brand-anchor svg {
     display: block;
     width: 236px;
@@ -1048,6 +1053,31 @@ section {
     }
     .second-list {
         flex-wrap: wrap;
+    }
+    [class*="col-4"] {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 50px;
+    }
+    [class*="col-sm-8"],
+    [class*="col-sm-4"] {
+        width: 100%;
+        max-width: 100%;
+    }
+    .ssl-2 div{
+        flex-direction: column;
+    }
+    .ssl-1{
+        flex-direction: column;
+        width: 100%;
+    }
+    .ssl-re-size
+    .tul-div ul {
+        padding: 0;
+    }
+    .double-img1 {
+        position: relative;
+        left: 150px;
     }
 
 }
