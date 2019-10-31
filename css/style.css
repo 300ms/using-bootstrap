@@ -8,6 +8,11 @@ html {
     overflow: scroll;
 }
 
+:root {
+    --header-styling1: 100vw;
+    --header-styling2: 0;
+}
+
 html,
 body{
 
@@ -60,8 +65,11 @@ a:visited {
     background: red;
     z-index: 9999;
     margin-bottom: 0;
-    top: -45px;
+    top: -20px;
     transition: 1s ease-out;
+    height: 90px;
+    transform: scaleX(calc(var(--test-scrollTop) * 0.000024 + 0.80415));
+    max-width: 100%;
 }
 
 .sticky-container:active {
