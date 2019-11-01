@@ -8,14 +8,8 @@ html {
     overflow: scroll;
 }
 
-:root {
-    --header-styling1: 100vw;
-    --header-styling2: 0;
-}
-
 html,
-body{
-
+body {
     width: 100%;
     min-height: 100%;
     font-size: 15px;
@@ -49,7 +43,6 @@ a:visited {
     margin: 0;
     display: initial;
 }
-
 
 .page-header {
     max-width: 1310px;
@@ -122,7 +115,6 @@ a:visited {
 }
 
 .svg-link {
-    /*display: block;*/
     flex-shrink: 1;
     width: 396px;
     height: 61px;
@@ -134,7 +126,6 @@ a:visited {
 }
 
 .brand-svg {
-
     width: 100%;
     height: 100%;
 }
@@ -241,7 +232,6 @@ input:focus{
     outline: none;
 }
 
-
 #search-bar:focus {
     text-indent: 15px;
 }
@@ -326,7 +316,7 @@ main {
     bottom: 0;
     left: 0;
     padding: 8px 15px 9px;
-    background-color: rgba(255,255,255,.9);
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 .lp-0 {
@@ -351,7 +341,7 @@ main {
 
 .layer3 {
     padding: 8px 15px 9px;
-    background-color: rgba(255,255,255,.9);
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 .layer4 {
@@ -360,7 +350,7 @@ main {
 }
 
 .layer5 {
-    background-color: rgba(255,255,255,.9);
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 .layer a {
@@ -387,7 +377,7 @@ main {
 .layer4 a{
     display: block;
     font: bold 15px sans-serif;
-    color: rgba(255,255,255,.9);
+    color: rgba(255, 255, 255, 0.9);
     text-transform: uppercase;
 }
 
@@ -597,7 +587,6 @@ a.active:visited {
     flex: none;
 }
 
-
 .second-list {
     width: 100%;
     height: fit-content;
@@ -645,24 +634,23 @@ a.active:visited {
 }
 
 .img-rc-15 {
-    transform: translate(-50%,0%);
-        position: absolute;
-        top: 0;
-        left: 50%;
-        width: auto;
-        height: 100%;
-        max-width: inherit;
-
+    transform: translate(-50%, 0%);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: auto;
+    height: 100%;
+    max-width: inherit;
 }
 
 .img-rc-16 {
-    transform: translate(-50%,0%);
-        position: absolute;
-        top: 0;
-        left: 50%;
-        width: auto;
-        height: 100%;
-        max-width: inherit;
+    transform: translate(-50%, 0%);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: auto;
+    height: 100%;
+    max-width: inherit;
 }
 
 .img-rc-17 {
@@ -683,7 +671,7 @@ a.active:visited {
     text-align: center;
     margin-bottom: 0;
     padding: 10px 10px 10px 12px;
-    font: bold 18px ,sans-serif;
+    font: bold 18px, sans-serif;
     text-transform: uppercase;
 }
 
@@ -734,7 +722,6 @@ a.active:visited {
     font-weight: bold;
     text-transform: uppercase;
 }
-
 
 #in-anchor {
     display: inline-block;
@@ -812,7 +799,6 @@ a.active:visited {
     width: 100%;
     height: 40px;
     border-bottom: 1px solid #d9d9d9;
-    margin-bottom: 2%;
     font: bold 18px sans-serif;
     margin-bottom: 15px;
     text-transform: uppercase;
@@ -929,8 +915,6 @@ a.active:visited {
     width: 48%;
 }
 
-
-
 .di-header5 {
     margin: 20px 0;
     color: #333;
@@ -977,7 +961,6 @@ footer {
     margin: 0 auto;
     padding: 30px 0 30px 60px;
     border-top: 2px solid #f4f5f6;
-
 }
 
 .prc-13-container {
@@ -1136,20 +1119,20 @@ section {
         margin-bottom: 30px;
         width: 50%;
         max-width: 50%;
-        flex: 0 0 50%
+        flex: 0 0 50%;
     }
 
     .rc-11 .layer-container{
         width: 100%;
         max-width: 100%;
-        flex: 0 0 100%
+        flex: 0 0 100%;
     }
 
     .lc-media-3 {
         margin-bottom: 30px;
         width: 33.3%;
         max-width: 33.3%;
-        flex: 0 0 33.3%
+        flex: 0 0 33.3%;
     }
     .ssl-inner {
         width: 35%;
@@ -1206,7 +1189,7 @@ section {
         margin-bottom: 30px;
         width: 100%;
         max-width: 100%;
-        flex: 0 0 100%
+        flex: 0 0 100%;
     }
 
     .triple-container{
