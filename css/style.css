@@ -256,7 +256,6 @@ main {
     text-transform: uppercase;
 }
 
-
 .row-div-2 a{
     font-weight: bolder;
     font-size: 15px;
@@ -314,7 +313,6 @@ main {
     font-size: 15px;
 }
 
-
 .rc-11 h3 {
     font-size: 22px;
     line-height: 22px;
@@ -358,7 +356,6 @@ main {
 .log-in a:hover {
     text-decoration: none;
 }
-
 
 .layer-container {
     position: relative;
@@ -765,6 +762,19 @@ a.active:visited {
     justify-content: center;
 }
 
+.sign-anchor svg {
+    fill: #fff;
+}
+
+.footer-brand-anchor svg {
+    display: block;
+    width: 236px;
+    height: 36px;
+    margin-right: 15px;
+    margin-bottom: 12px;
+    fill: #f72210;
+}
+
 #in-anchor4 svg {
     fill: white;
 }
@@ -949,19 +959,6 @@ a.active:visited {
     text-transform: uppercase;
     background-color: red;
     padding: 0 10px;
-}
-
-.sign-anchor svg {
-    fill: #fff;
-}
-
-.footer-brand-anchor svg {
-    display: block;
-    width: 236px;
-    height: 36px;
-    margin-right: 15px;
-    margin-bottom: 12px;
-    fill: #f72210;
 }
 
 #in-anchor3 {
