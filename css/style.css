@@ -86,16 +86,6 @@ a:visited {
     margin-left: 10px;
 }
 
-.log-in a:link,
-.log-in a:visited,
-.log-in a:active {
-    text-decoration: none;
-}
-
-.log-in a:hover {
-    text-decoration: none;
-}
-
 .sub-anchor {
     display: flex;
     width: 130px;
@@ -120,9 +110,6 @@ a:visited {
     height: 61px;
     fill: #fff;
     margin: auto;
-}
-
-.brand-logo-container {
 }
 
 .brand-svg {
@@ -169,20 +156,6 @@ a:visited {
 .last-lgi {
     margin-right: -1px;
     z-index: 0;
-}
-
-.nav-container a:link,
-.nav-container a:visited,
-.nav-container a:active {
-    color: #000;
-    font-size: 1.15rem;
-    font-weight: bolder;
-    text-decoration: none;
-}
-
-.nav-container a:hover {
-    text-decoration: none;
-    color: red;
 }
 
 .triangle-container {
@@ -283,6 +256,65 @@ main {
     text-transform: uppercase;
 }
 
+
+.row-div-2 a{
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.layer-container a{
+    width: 100%;
+    height: 100%;
+    text-decoration-color: red;
+}
+
+.layer a {
+    display: block;
+    font: bold 15px sans-serif;
+    color: #f72210;
+    text-transform: uppercase;
+}
+
+.layer2 a {
+    display: block;
+    font: bold 15px sans-serif;
+    color: rgba(255, 255, 255, 0.9);
+    text-transform: uppercase;
+}
+
+.layer3 a{
+    display: block;
+    font: bold 15px sans-serif;
+    color: #f72210;
+    text-transform: uppercase;
+}
+
+.layer4 a{
+    display: block;
+    font: bold 15px sans-serif;
+    color: rgba(255, 255, 255, 0.9);
+    text-transform: uppercase;
+}
+
+.layer5 a {
+    width: 70px;
+    height: 52px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 58px;
+    text-indent: 5px;
+    text-align: center;
+}
+
+.pic-container a{
+    display: block;
+}
+
+.ul-rc-13 a {
+    font-size: 15px;
+}
+
+
 .rc-11 h3 {
     font-size: 22px;
     line-height: 22px;
@@ -300,14 +332,36 @@ main {
     text-decoration-color: red;
 }
 
-.layer-container {
-    position: relative;
+.menu li a {
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+    line-height: 15px;
 }
 
-.layer-container a{
-    width: 100%;
-    height: 100%;
-    text-decoration-color: red;
+.nav-container a:link,
+.nav-container a:visited,
+.nav-container a:active {
+    color: #000;
+    font-size: 1.15rem;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.nav-container a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.log-in a:link,
+.log-in a:visited,
+.log-in a:active,
+.log-in a:hover {
+    text-decoration: none;
+}
+
+
+.layer-container {
+    position: relative;
 }
 
 .layer {
@@ -353,44 +407,6 @@ main {
     background-color: rgba(255, 255, 255, 0.9);
 }
 
-.layer a {
-    display: block;
-    font: bold 15px sans-serif;
-    color: #f72210;
-    text-transform: uppercase;
-}
-
-.layer2 a {
-    display: block;
-    font: bold 15px sans-serif;
-    color: rgba(255,255,255,.9);
-    text-transform: uppercase;
-}
-
-.layer3 a{
-    display: block;
-    font: bold 15px sans-serif;
-    color: #f72210;
-    text-transform: uppercase;
-}
-
-.layer4 a{
-    display: block;
-    font: bold 15px sans-serif;
-    color: rgba(255, 255, 255, 0.9);
-    text-transform: uppercase;
-}
-
-.layer5 a {
-    width: 70px;
-    height: 52px;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 58px;
-    text-indent: 5px;
-    text-align: center;
-}
-
 .picture-rc-11,
 .pic-rc-12 {
     display: block;
@@ -425,11 +441,6 @@ main {
     color:#555;
     line-height: 2;
     font-size: 17px;
-}
-
-.row-div-2 a{
-    font-weight: bolder;
-    font-size: 15px;
 }
 
 .byline {
@@ -527,10 +538,6 @@ a.active:visited {
     margin-right: 10px;
 }
 
-.pic-container a{
-    display: block;
-}
-
 .ul-rc-13 {
     list-style: none;
     padding: 0;
@@ -560,10 +567,6 @@ a.active:visited {
     border-top: 1px solid #ddd;
     margin: 10px 0;
     padding-top: 10px;
-}
-
-.ul-rc-13 a {
-    font-size: 15px;
 }
 
 #li-rc-first {
@@ -723,6 +726,11 @@ a.active:visited {
     text-transform: uppercase;
 }
 
+.social svg {
+    width: 25px;
+    height: 25px;
+}
+
 #in-anchor {
     display: inline-block;
     width: 80px;
@@ -831,7 +839,6 @@ a.active:visited {
     border-top: 1px solid #d9d9d9;
     font: bold 20px sans-serif;
     color: red;
-    margin-bottom: 15px;
     text-transform: uppercase;
     margin: 15px 0;
     font-size: 16px;
@@ -843,7 +850,6 @@ a.active:visited {
     border-top: 1px solid #d9d9d9;
     font: bold 20px sans-serif;
     color: red;
-    margin-bottom: 15px;
     text-transform: uppercase;
     margin: 15px 0;
     font-size: 16px;
@@ -945,14 +951,23 @@ a.active:visited {
     padding: 0 10px;
 }
 
+.sign-anchor svg {
+    fill: #fff;
+}
+
+.footer-brand-anchor svg {
+    display: block;
+    width: 236px;
+    height: 36px;
+    margin-right: 15px;
+    margin-bottom: 12px;
+    fill: #f72210;
+}
+
 #in-anchor3 {
     width: 115px;
     color: #fff;
     padding: 10px 15px;
-}
-
-.sign-anchor svg {
-    fill: #fff;
 }
 
 footer {
@@ -965,15 +980,6 @@ footer {
 
 .prc-13-container {
     min-width: 238px;
-}
-
-.footer-brand-anchor svg {
-    display: block;
-    width: 236px;
-    height: 36px;
-    margin-right: 15px;
-    margin-bottom: 12px;
-    fill: #f72210;
 }
 
 .copyright {
@@ -1014,11 +1020,6 @@ footer {
     padding: 0;
 }
 
-.social svg {
-    width: 25px;
-    height: 25px;
-}
-
 .footer-links-menu {
     padding: 0;
 }
@@ -1033,12 +1034,6 @@ footer {
     border-right: 1px solid #d9d9d9;
     padding-right: 10px;
     margin: 6px 16px 6px 0;
-}
-
-.menu li a {
-    color: rgb(102, 102, 102);
-    font-size: 14px;
-    line-height: 15px;
 }
 
 .footer-links-edition label {
