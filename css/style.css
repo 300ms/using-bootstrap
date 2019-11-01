@@ -1077,6 +1077,10 @@ section {
         flex-wrap: wrap;
     }
 
+    .hd-media {
+        display: none;
+    }
+
     .row-div-1,
     .row-div-2 {
         width: 100%;
@@ -1168,6 +1172,11 @@ section {
     .date-div{
         display: none;
     }
+
+    .hd-media {
+        display: none;
+    }
+
     .col-div-1,
     .col-div-2,
     .row-div-1,
@@ -1258,5 +1267,10 @@ section {
     }
     .footer-bottom {
         flex-wrap: wrap;
+    }
+
+    #footer-ul-media {
+        margin: 0;
+        padding: 0;
     }
 }
