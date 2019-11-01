@@ -517,6 +517,10 @@ a.active:visited {
      padding-bottom: 66.6667%;
 }
 
+section {
+    margin-bottom: 20px;
+}
+
 .sticky-2 section {
     padding: 0;
 }
@@ -1038,10 +1042,6 @@ footer {
     margin-right: 15px;
 }
 
-section {
-    margin-bottom: 20px;
-}
-
 [class*="col-4"] {
     min-width: 287px;
 }
@@ -1093,7 +1093,8 @@ section {
 
     .double-img1 {
         position: relative;
-        left: 150px;
+        left: 0;
+        margin-right: 45px;
     }
 
     .prc-13-container {
@@ -1136,10 +1137,6 @@ section {
         width: 65%;
         max-width: 65%;
         flex: 0 0 65%;
-    }
-    .double-img1{
-        left: 0;
-        margin-right: 45px;
     }
 }
 
