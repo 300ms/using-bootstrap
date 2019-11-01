@@ -453,6 +453,10 @@ main {
     -ms-overflow-style: none;
 }
 
+.sticky-2::-webkit-scrollbar {
+    display: none;
+}
+
 .h2 {
     font-weight: bolder;
     margin-top: 10px;
@@ -492,10 +496,6 @@ a.active:visited {
 .active:hover {
     background-color: #272727;
     color: #c2d4d7;
-}
-
-::-webkit-scrollbar {
-    display: none;
 }
 
 .block-title {
